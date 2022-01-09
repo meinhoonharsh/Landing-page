@@ -1,13 +1,17 @@
 .navbar {
-  background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+  /* background: url('/public/images/1.jpg'); */
+  background-color: #071330;
+  
   height: 80px;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 1.2rem;
-  position: sticky;
+  /* position: sticky; */
   top: 0;
-  z-index: 999;
+  z-index: 1000;
+  border: none;
+  box-shadow: #fff;
 }
 
 .navbar-container {
@@ -30,12 +34,12 @@
 }
 
 .navbar-logo:hover {
-  color: #4ec8ca;
+  color: white;
 }
 
 .navbar-logo span {
-  color: #4ec8ca;
-  margin: 0 10px 0 10px;
+  color: #738FA7;
+  margin: 0PX;
   /* not responsive */
 }
 
@@ -50,7 +54,7 @@
   grid-gap: 10px;
   list-style: none;
   text-align: center;
-  width: 60vw;
+  width: 75vw;
   justify-content: end;
   margin-right: 2rem;
   margin-top: 13px;
@@ -70,8 +74,8 @@
 }
 
 .nav-links:hover {
-  border-bottom: 4px solid #4ec8ca;
-  color: #4ec8ca;
+  border-bottom: 4px solid #738FA7;
+  color: #738FA7;
   transition: all 0.2s ease-out;
 }
 

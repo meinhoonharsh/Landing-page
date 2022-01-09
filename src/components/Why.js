@@ -2,10 +2,8 @@ import React from "react";
 import { Card, Avatar } from "antd";
 import { Col, Row } from "antd";
 import "./Why.css";
-import equality from "../../src/equality.jpg";
-import liquidity from "../../src/liquidity.webp";
-import trust from "../../src/trust.jpg";
-import barrier from "../../src/barrier.webp";
+// import equality from "../../src/equality.jpg";
+
 
 const { Meta } = Card;
 
@@ -26,7 +24,7 @@ function Why() {
                   margin: "5% auto",
                   //   margin: "auto",
                 }}
-                cover={<img alt="example" src={equality} />}
+                // cover={<img alt="example" src={equality} />}
               >
                 {" "}
                 <h2> Democratization </h2>{" "}
@@ -48,7 +46,7 @@ function Why() {
                   float: "right",
                   margin: "5% auto",
                 }}
-                cover={<img alt="example" src={liquidity} />}
+                // cover={<img alt="example" src={liquidity} />}
               >
                 {" "}
                 <h2> High Liquidity </h2>{" "}
@@ -71,13 +69,12 @@ function Why() {
                   padding: 0,
                   margin: "5% auto",
                 }}
-                cover={
-                  <img
-                    alt="example"
-                    src={trust}
-                    // style={{ height: 200 }}
-                  />
-                }
+                //  cover={
+                //    <img
+                //      alt="example"
+                //      src={trust}
+                //   />
+                // }
               >
                 {" "}
                 <h2> Transparency and Security </h2>{" "}
@@ -99,7 +96,7 @@ function Why() {
                   float: "right",
                   margin: "5% auto",
                 }}
-                cover={<img alt="example" src={barrier} />}
+                // cover={<img alt="example" src={barrier} />}
               >
                 {" "}
                 <h2> No Geographical Barrier </h2>{" "}
