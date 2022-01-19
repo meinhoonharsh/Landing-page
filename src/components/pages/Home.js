@@ -4,7 +4,7 @@ import { Row, Col} from "antd";
 import HeroSection from "../HeroSection";
 import Footer from "../Footer";
 import Why from "../Why";
-import HowItWorks from "../HowItWorks";
+import Token_usecases from "../Token-usecases";
 import Features from "../Features";
 function Home() {
   return (
@@ -12,10 +12,9 @@ function Home() {
       <Row>
         <Col span={24}>
           <HeroSection />
-
-          {/* <Why /> */}
           < Features />
-          <HowItWorks />
+          <Why />
+          <Token_usecases />
           <Footer />
         </Col>
       </Row>

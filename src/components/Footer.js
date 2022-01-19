@@ -5,12 +5,9 @@ import { Link } from "react-router-dom";
 function Footer() {
   return (
     <div className="footer-container">
-      {/* <section className='footer-subscription'>
-        <p className='footer-subscription-heading'>
-          Join the Adventure newsletter to receive our best vacation deals
-        </p>
+      <section className='footer-subscription'>
         <p className='footer-subscription-text'>
-          You can unsubscribe at any time.
+          Please leave your valuable feedback!
         </p>
         <div className='input-areas'>
           <form>
@@ -20,41 +17,19 @@ function Footer() {
               type='email'
               placeholder='Your Email'
             />
-            <button buttonStyle='btn--outline'>Subscribe</button>
+            
+            <input
+              className='footer-input'
+              name='msg'
+              type='text'
+              placeholder='Type your message here!'
+            />
+        
+            <button className="foot-btns">Submit</button>
+       
           </form>
         </div>
-      </section> */}
-      <div class="footer-links">
-        <div className="footer-link-wrapper">
-          <div class="footer-link-items">
-            <h2>About Us</h2>
-            <Link to="/sign-up">How it works</Link>
-            <Link to="/">What we do</Link>
-
-            <Link to="/">Team</Link>
-            <Link to="/">Terms of Service</Link>
-          </div>
-          <div class="footer-link-items">
-            <h2>Contact Us</h2>
-            <Link to="/">Contact</Link>
-            <Link to="/">Support</Link>
-          </div>
-        </div>
-        <div className="footer-link-wrapper">
-          <div class="footer-link-items">
-            <h2>Marketplace</h2>
-            <Link to="/">Connect a wallet</Link>
-            <Link to="/">Properties</Link>
-            <Link to="/">Sell/Buy Property</Link>
-            {/* <Link to="/">Influencer</Link> */}
-          </div>
-          <div class="footer-link-items">
-            <h2>Social Media</h2>
-            <Link to="/">Instagram</Link>
-            <Link to="/">Facebook</Link>
-          </div>
-        </div>
-      </div>
+      </section>
       <section class="social-media">
         <div class="social-media-wrap">
           <div class="footer-logo">

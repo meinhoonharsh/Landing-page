@@ -1,14 +1,17 @@
-.container {
-  background-color: #738fa7;
-  padding: 20px 0px;
+.container{
+  box-shadow: 0 5px 10px 0 rgba(49, 47, 83, 0.16);
+  
 }
 .bulletBlock {
+  background-color: #5271ff;
+  background: rgba(82, 113, 255, 0.6);
   width: 100%;
   margin: auto;
   padding: 1%;
-  border-bottom: #0C4160 solid 1px;
+  border-bottom: white solid 1px;
   text-align: center;
   font-family: "quicksand", sans-serif;
+  box-shadow: 0 5px 10px 0 rgba(49, 47, 83, 0.16);
 }
 
 .bulletBlock h1 {
@@ -34,19 +37,22 @@
 .WhyHeading {
   text-align: center;
   margin-right: 6%;
-  margin-top: 2%;
-  border-bottom-width: 1px;
-  padding-bottom: 10px;
+  padding: 20px;
   font-family: "quicksand", sans-serif;
   font-size: 40px;
   font-weight: bold;
   color: #071330;
 }
 
-.Feature-card {
-  color: #071330;
-  font-family: sans-serif;
-  background-color: #c3ceda;
-  border-radius: 10px;
-  border: none;
+
+.how-it-works{
+  background-color: rgba(255,87,87, 0.1);
+  padding-bottom: 20px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }

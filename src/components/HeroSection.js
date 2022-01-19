@@ -33,8 +33,7 @@ function HeroSection() {
           In Decentralized Finance{" "}
         </h1>{" "}
         <p className="sub-heading">
-          We choose high yielding Real Estate for tokenization, <br />provide an interface
-          for lending, borrowing and swapping tokens.
+          We aim to democratize real estate investments so that anyone from anywhere <br /> can invest in real estate and leverage it in defi world.
         </p>{" "}
         <div className="hero-btns">
           <button className="btn" onClick={handleOpen}>
@@ -60,7 +59,7 @@ function HeroSection() {
         
       </div>
       <div className="hero-img">
-        <img src="/images/building.svg" style={{width:"300px", height: "300px", float: "right"}}/>
+        <img src="/images/building.svg" style={{width:"300px", height: "auto"}}/>
       </div>
     </div>
   );

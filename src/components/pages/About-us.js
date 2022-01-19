@@ -1,33 +1,31 @@
 import React from "react";
 import "../../App.css";
-import { Row, Col, Button, InputNumber, Space, Upload, Modal } from "antd";
+import "./About-us.css";
 
 function About_us() {
   return (
     <>
-      <h1 style={{ margin: "2%" }}>About Us</h1>
-      <Row>
-        <Col span={22} offset={1} style={{}}>
-          <div style={{ margin: "  auto" }}>
-            For a remarkable About page, all you need to do is figure out your
-            company's unique identity, and then share it with the world. Easy,
-            right? Of course not. Your "About Us" page is one of the most
-            important pages on your website, and it needs to be well crafted.
-            This profile also happens to be one of the most commonly overlooked
-            pages, which is why you should make it stand out. The good news? It
-            can be done. In fact, there are some companies out there with
-            remarkable "About Us" pages, the elements of which you can emulate
-            on your own website. company's unique identity, and then share it
-            with the world. Easy, right? Of course not. Your "About Us" page is
-            one of the most important pages on your website, and it needs to be
-            well crafted. This profile also happens to be one of the most
-            commonly overlooked pages, which is why you should make it stand
-            out. The good news? It can be done. In fact, there are some
-            companies out there with remarkable "About Us" pages, the elements
-            of which you can emulate on your own website.
+      <div className="main">
+        <div className = "Heading">About Us</div>
+
+        <div className="Text">
+          We are two good friends who share a common passion for
+          entrepreneurship and always believed that blockchain technology has
+          immense potential to change the world for better. Best way we think is
+          to innovate conventional asset investments. We always resonated with
+          the problem in real-estate investments and wanted people of every age,
+          economic class and demographic to be able to invest in it. We have
+          been working day and night and are forunate enough to gather a team of
+          passionate peoples who believe in Us and our vision.
+        </div>
+
+        <div className="Profiles">
+          <div className="Profile">
+            <img src="/images/formal-pic.jpg" />
+            <p>Rounak Dubey</p>
           </div>
-        </Col>
-      </Row>
+        </div>
+      </div>
     </>
   );
 }

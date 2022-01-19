@@ -1,11 +1,6 @@
 import React from "react";
 import "antd/dist/antd.css";
-import { Card, Col, Row } from "antd";
-import {
-  BookOutlined,
-  PieChartOutlined,
-  CheckCircleOutlined,
-} from "@ant-design/icons";
+import { Col, Row } from "antd";
 import "./Features.css";
 
 function Features() {
@@ -39,58 +34,19 @@ function Features() {
           </ul>{" "}
         </div>{" "}
         <div>
-          <Row>
-            <Col span={18} offset={3}>
-              <div className="site-card-wrapper">
-                <h1 className="WhyHeading">
-                  {" "}
-                  Why Choose Us?
-                </h1>
-                <Row gutter={16}>
-                  <Col span={7} style={{ margin: "2%" }}>
-                    <Card className="Feature-card">
-                      <h2>
-                        <CheckCircleOutlined /> Smart Contact
-                      </h2>
-                      <p>
-                        Our Smart contracts will ensure that timely dividends
-                        and rights that are promised are given to the token
-                        holders. It will also allow secondary trading of the
-                        tokens and .
-                      </p>
-                    </Card>
-                  </Col>
-                  <Col span={7} style={{ margin: "2%" }}>
-                    <Card className="Feature-card">
-                      <h2>
-                        <BookOutlined /> Marketplaces
-                      </h2>
-                      <p>
-                        {" "}
-                        Brickstox is a marketplace for primary distribution and
-                        secondary trading of estate tokens. will also allow
-                        secondary trading of the tokens and sending of metadata
-                        with the token.
-                      </p>
-                    </Card>
-                  </Col>
-                  <Col span={7} style={{ margin: "2%" }}>
-                    <Card className="Feature-card">
-                      <h2>
-                        <PieChartOutlined /> Hand-picked
-                      </h2>
-                      <p>
-                        Trustworthy high yielding real estates are listed on
-                        Brickstox. will also allow secondary trading of the
-                        tokens and sending of metadata with the token metadata
-                        with the token
-                      </p>
-                    </Card>
-                  </Col>
-                </Row>
-              </div>
-            </Col>
-          </Row>
+
+          <div className="how-it-works">
+            <Row>
+              <Col span={18} offset={3}>
+                <div className="site-card-wrapper">
+                  <h1 className="WhyHeading"> How it works?</h1>
+                </div>
+              </Col>
+            </Row>
+           <Row>
+           <img className= "center" src="/images/flow.svg" />
+           </Row>
+          </div>
         </div>
       </div>
     </>

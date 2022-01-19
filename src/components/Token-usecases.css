@@ -1,0 +1,39 @@
+.container{
+  background-color: rgba(82,113,255, 0.1);
+}
+
+.Token-usecases-main{
+    display: flex;
+    flex-direction: row;
+    justify-items: space-between;
+    gap: 50px;
+    width: 100%;
+    padding: 10px 50px;
+    align-items: center; 
+    
+  }
+
+  .Token-usecases-heading{
+  text-align: center;
+  margin-right: 6%;
+  border-bottom-width: 1px;
+  padding: 20px;
+  font-family: "quicksand", sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  color: #071330;
+  }
+
+  .Token-usecases-main img{
+    width: 500px;
+    height: auto;
+  }
+  .Sub-heading {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-top: 5px;
+    font-family:  Arial, sans-serif;
+    text-align: left;
+    font-family: georgia,serif;
+    
+  }
