@@ -6,6 +6,7 @@ import Footer from "../Footer";
 import Why from "../Why";
 import Token_usecases from "../Token-usecases";
 import Features from "../Features";
+import Feedback from "../Feedback";
 function Home() {
   return (
     <>
@@ -15,6 +16,7 @@ function Home() {
           < Features />
           <Why />
           <Token_usecases />
+          <Feedback />
           <Footer />
         </Col>
       </Row>
