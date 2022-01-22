@@ -59,7 +59,7 @@ function HeroSection() {
         
       </div>
       <div className="hero-img">
-        <img src="/images/building.svg" style={{width:"300px", height: "auto"}}/>
+        <img src="/images/building.svg" />
       </div>
     </div>
   );

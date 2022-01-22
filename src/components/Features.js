@@ -44,7 +44,7 @@ function Features() {
               </Col>
             </Row>
            <Row>
-           <img className= "center" src="/images/flow.svg" />
+           <img className= "flowchart center" src="/images/flow.svg" />
            </Row>
           </div>
         </div>

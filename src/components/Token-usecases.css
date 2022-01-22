@@ -15,9 +15,8 @@
 
   .Token-usecases-heading{
   text-align: center;
-  margin-right: 6%;
   border-bottom-width: 1px;
-  padding: 20px;
+  padding: 40px;
   font-family: "quicksand", sans-serif;
   font-size: 40px;
   font-weight: bold;
@@ -28,6 +27,7 @@
     width: 500px;
     height: auto;
   }
+
   .Sub-heading {
     font-size: 1.5rem;
     font-weight: 500;
@@ -35,5 +35,41 @@
     font-family:  Arial, sans-serif;
     text-align: left;
     font-family: georgia,serif;
-    
+  }
+
+  @media screen and (max-width: 960px){
+    .Token-usecases-main{
+      display: flex;
+      flex-direction: column;
+      justify-items: space-between;
+      gap: 5px;
+      width: 100%;
+      padding: 10px 50px;
+      align-items: center; 
+      
+    }
+
+    .Token-usecases-main img{
+      width: 200px;
+      height: auto;
+    }
+
+    .Token-usecases-heading{
+      text-align: center;
+      border-bottom-width: 1px;
+      padding: 15px;
+      font-family: "quicksand", sans-serif;
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: #071330;
+      }
+
+      .Sub-heading {
+        font-size: 0.8rem;
+        font-weight: 200;
+        margin-top: 5px;
+        font-family:  Arial, sans-serif;
+        text-align: left;
+        font-family: georgia,serif;
+      }
   }

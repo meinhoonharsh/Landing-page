@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import database from './firebase';
-
 import { makeStyles } from '@material-ui/core';
 import TextField from '@material-ui/core/TextField';
 import Button from '@material-ui/core/Button';
