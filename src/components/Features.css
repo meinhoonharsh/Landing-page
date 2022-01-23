@@ -67,7 +67,7 @@
   }
   .bulletBlock ul li {
     display: inline-block;
-    padding: 0px 30px;
+    padding: 0px 20px;
     font-size: 15px !important;
     margin-top: 0.4em;
   }
@@ -86,7 +86,8 @@
   }
 
   .flowchart{
-    width: 300px;
+    padding-top: 10px;
+    width: 350px;
     height: auto;
   }
 }

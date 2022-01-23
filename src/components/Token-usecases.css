@@ -50,7 +50,8 @@
     }
 
     .Token-usecases-main img{
-      width: 200px;
+      padding-top: 20px;
+      width: 350px;
       height: auto;
     }
 
@@ -66,7 +67,7 @@
 
       .Sub-heading {
         font-size: 0.8rem;
-        font-weight: 200;
+        font-weight: 400;
         margin-top: 5px;
         font-family:  Arial, sans-serif;
         text-align: left;
