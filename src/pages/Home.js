@@ -21,69 +21,17 @@ export default function Home() {
               className="nav-logo-link w-nav-brand w--current"
             >
               <img
-                src="images/Logo-Futureswap.svg"
+                src="images/favicon.png"
                 loading="lazy"
                 alt=""
                 className="nav-logo"
               />
+              <h2 style={{ color:'#fff'}}>Brickstox</h2>
             </a>
             <nav role="navigation" className="nav-menu-container w-nav-menu">
               <div className="nav-menu">
-                <a
-                  data-w-id="d190c1df-cdb2-1179-2e57-61160b1795fe"
-                  href="https://app.futureswap.com/"
-                  className="nav-link-block w-inline-block"
-                >
-                  <img
-                    src="images/Icon-Nav-Hover.svg"
-                    loading="lazy"
-                    alt=""
-                    className="nav-link"
-                  />
-                  <div className="nav-link-name">Trade</div>
-                </a>
-                <a
-                  data-w-id="dbc88dd3-3248-0d5a-40ed-ac860efae099"
-                  href="https://docs.futureswap.com/"
-                  target="_blank"
-                  className="nav-link-block w-inline-block"
-                >
-                  <img
-                    src="images/Icon-Nav-Hover.svg"
-                    loading="lazy"
-                    alt=""
-                    className="nav-link"
-                  />
-                  <div className="nav-link-name">Docs</div>
-                </a>
-                <a
-                  data-w-id="dbc88dd3-3248-0d5a-40ed-ac860efae099"
-                  href="https://app.futureswap.com/governance"
-                  target="_blank"
-                  className="nav-link-block w-inline-block"
-                >
-                  <img
-                    src="images/Icon-Nav-Hover.svg"
-                    loading="lazy"
-                    alt=""
-                    className="nav-link"
-                  />
-                  <div className="nav-link-name">Governance</div>
-                </a>
-                <a
-                  data-w-id="3e8f9130-95d2-c295-148c-7fb4d3274a05"
-                  href="https://angel.co/company/futureswap/jobs/"
-                  target="_blank"
-                  className="nav-link-block w-inline-block"
-                >
-                  <img
-                    src="images/Icon-Nav-Hover.svg"
-                    loading="lazy"
-                    alt=""
-                    className="nav-link"
-                  />
-                  <div className="nav-link-name">Jobs</div>
-                </a>
+                
+                
                 <a
                   data-w-id="b884066b-dfe0-b27f-d8b6-602283a3d9b0"
                   href="https://discord.gg/futureswap"
@@ -96,7 +44,14 @@ export default function Home() {
                     alt=""
                     className="nav-link"
                   />
-                  <div className="nav-link-name">Discord</div>
+                  <div className="nav-link-name"> Something</div>
+                </a>
+                <a
+                  href="https://app.futureswap.com/"
+                  className="nav-link-block w-inline-block is-filled-hero-button w-button filled-button"
+                  style={{ color:'#07071c' }}
+                >
+                  Early Access
                 </a>
                 <div className="nav-social-info">Follow us</div>
                 <div className="nav-social-container">
