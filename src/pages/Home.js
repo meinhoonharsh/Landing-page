@@ -1,4 +1,5 @@
 import React from "react";
+import HowItWorks from "../partials/HowItWorks";
 import Landing from "../partials/Landing";
 import Navbar from "../partials/Navbar";
 import ProductSection from "../partials/ProductSection";
@@ -10,7 +11,7 @@ export default function Home() {
        <Navbar />
         <Landing />
        <ProductSection />
-        
+        <HowItWorks />
         <div className="s3">
           <div className="s3-container">
             <div className="s3-image-wrapper">
