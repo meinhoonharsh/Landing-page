@@ -20,7 +20,7 @@ export default function NAvbar() {
             className="nav-logo-link w-nav-brand w--current"
           >
             <img
-              src="images/favicon.png"
+              src="assets/img/logo.png"
               loading="lazy"
               alt=""
               className="nav-logo"
