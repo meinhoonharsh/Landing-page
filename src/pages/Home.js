@@ -299,7 +299,10 @@ export default function Home() {
                         className="s2-icon"
                       />
                     </div>
-                    <h3 className="s2-h3">Leverage up to 30x</h3>
+                    <h3 className="s2-h3">We list high
+yielding real
+estate after due
+diligence</h3>
                   </div>
                 </div>
                 <div className="s2-block">
@@ -316,7 +319,12 @@ export default function Home() {
                       />
                     </div>
                     <h3 className="s2-h3">
-                      <strong>Compound</strong>with high-yield pools
+                    We tokenize
+property into
+NFTs, each
+representing
+fractional
+ownership
                     </h3>
                   </div>
                 </div>
@@ -333,7 +341,10 @@ export default function Home() {
                         className="s2-icon is-icon-3"
                       />
                     </div>
-                    <h3 className="s2-h3">Super cheap transactions</h3>
+                    <h3 className="s2-h3">Get NFT's
+directly into
+your crypto
+wallet</h3>
                   </div>
                 </div>
                 <div className="s2-block">
@@ -350,7 +361,11 @@ export default function Home() {
                       />
                     </div>
                     <h3 className="s2-h3">
-                      Best price execution on the market
+                    Get regular
+rent
+payments
+into your
+crypto wallet
                     </h3>
                   </div>
                 </div>
@@ -368,7 +383,10 @@ export default function Home() {
                       />
                     </div>
                     <h3 className="s2-h3">
-                      Low slippage and fees, even on large trades
+                    Use our
+liquidity pools
+to borrow, lend
+and swap
                     </h3>
                   </div>
                 </div>
