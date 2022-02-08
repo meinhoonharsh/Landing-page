@@ -1,8 +1,8 @@
-import React from 'react';
+import React from "react";
 
 export default function Home() {
-  return <>
-      
+  return (
+    <>
       <div className="page-wrap">
         <div
           data-collapse="medium"
@@ -26,12 +26,10 @@ export default function Home() {
                 alt=""
                 className="nav-logo"
               />
-              <h2 style={{ color:'#fff'}}>Brickstox</h2>
+              <h2 style={{ color: "#fff" }}>Brickstox</h2>
             </a>
             <nav role="navigation" className="nav-menu-container w-nav-menu">
               <div className="nav-menu">
-                
-                
                 <a
                   data-w-id="b884066b-dfe0-b27f-d8b6-602283a3d9b0"
                   href="https://discord.gg/futureswap"
@@ -49,7 +47,7 @@ export default function Home() {
                 <a
                   href="https://app.futureswap.com/"
                   className="nav-link-block w-inline-block is-filled-hero-button w-button filled-button"
-                  style={{ color:'#07071c' }}
+                  style={{ color: "#07071c" }}
                 >
                   Early Access
                 </a>
@@ -93,13 +91,12 @@ export default function Home() {
         <div className="hero-wrapper">
           <div className="hero-info-container">
             <div className="hero-info">
-              <div className="hero-subheader">
-                Built on ETH. Powered by You.
-              </div>
-              <h1 className="h1">The Future of Perpetuals Is Here</h1>
+              <div className="hero-subheader">Real Estate</div>
+              <h1 className="h1">Ecosystem in Decentralized Finance</h1>
               <p className="p">
-                Leverage on any tokens with a protocol trusted with billions for
-                its price execution, super low fees and reliability.
+                We aim to democratize real estate investments so that anyone
+                from anywhere can invest in real estate and leverage it in defi
+                world.
               </p>
               <div className="hero-buttons-container">
                 <a
@@ -119,7 +116,8 @@ export default function Home() {
           </div>
           <div className="waves-wrapper">
             <div className="waves-container">
-              <img
+              <img src="assets/img/landing-02.png" />
+              {/* <img
                 src="images/Graphic-Hero-Blur.jpg"
                 loading="lazy"
                 sizes="(max-width: 1279px) 100vw, 1250px"
@@ -232,7 +230,7 @@ export default function Home() {
                   alt=""
                   className="hero-card-stem"
                 />
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
@@ -295,7 +293,7 @@ export default function Home() {
                     </div>
                     <div className="s2-icon-container">
                       <img
-                        src="images/Graphic-Leverage.png"
+                        src="assets/img/icons/1.png"
                         loading="lazy"
                         alt=""
                         className="s2-icon"
@@ -311,7 +309,7 @@ export default function Home() {
                     </div>
                     <div className="s2-icon-container">
                       <img
-                        src="images/Graphic-Pools.png"
+                        src="assets/img/icons/2.png"
                         loading="lazy"
                         alt=""
                         className="s2-icon is-icon-2"
@@ -329,7 +327,7 @@ export default function Home() {
                     </div>
                     <div className="s2-icon-container">
                       <img
-                        src="images/Graphic-Transactions.png"
+                        src="assets/img/icons/3.png"
                         loading="lazy"
                         alt=""
                         className="s2-icon is-icon-3"
@@ -345,7 +343,7 @@ export default function Home() {
                     </div>
                     <div className="s2-icon-container">
                       <img
-                        src="images/Graphic-Execution.png"
+                        src="assets/img/icons/4.png"
                         loading="lazy"
                         alt=""
                         className="s2-icon is-icon-4"
@@ -363,7 +361,7 @@ export default function Home() {
                     </div>
                     <div className="s2-icon-container">
                       <img
-                        src="images/Graphic-Fees.png"
+                        src="assets/img/icons/5.png"
                         loading="lazy"
                         alt=""
                         className="s2-icon is-icon-5"
@@ -372,22 +370,6 @@ export default function Home() {
                     <h3 className="s2-h3">
                       Low slippage and fees, even on large trades
                     </h3>
-                  </div>
-                </div>
-                <div className="s2-block">
-                  <div className="s2-content-container">
-                    <div className="s2-blur-container">
-                      <div className="s2-blur is-blur-6" />
-                    </div>
-                    <div className="s2-icon-container">
-                      <img
-                        src="images/Graphic-Oracle.png"
-                        loading="lazy"
-                        alt=""
-                        className="s2-icon is-icon-6"
-                      />
-                    </div>
-                    <h3 className="s2-h3">Fully composable with other DApps</h3>
                   </div>
                 </div>
               </div>
@@ -1073,5 +1055,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-  </>;
+    </>
+  );
 }
