@@ -1,4 +1,5 @@
 import React from "react";
+import Landing from "../partials/Landing";
 import Navbar from "../partials/Navbar";
 
 export default function Home() {
@@ -6,7 +7,7 @@ export default function Home() {
     <>
       <div className="page-wrap">
        <Navbar />
-        
+        <Landing />
         <div className="s1">
           <div className="s1-wrapper">
             <div className="s1-container">
