@@ -14,5 +14,10 @@
     .is-blur-5{
         background-image: linear-gradient(45deg, #602ead, #602ead);
     }
-
+    .s2-blocks-container{
+        justify-content: center;
+        .s2-h3{
+            height:8em;
+        }
+    }
 }
