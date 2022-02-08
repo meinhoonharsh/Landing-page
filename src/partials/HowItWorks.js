@@ -9,10 +9,10 @@ export default function HowItWorks() {
             data-w-id="5b6da96c-f3bc-7ac5-0a8a-bf7907321711"
             className="s2-info-container"
           >
-            <h2 className="h2">Take full control of your crypto</h2>
+            <h2 className="h2">How It Works</h2>
             <p className="p is-s2-p">
-              Built on Ethereum, our non-custodial perpetuals exchange focuses
-              on one thing: being the best execution environment for trades.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Pellentesque euismod, urna eu tincidunt consectetur.
             </p>
           </div>
           <div className="s2-blocks-wrapper">
