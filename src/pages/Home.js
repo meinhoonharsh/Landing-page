@@ -8,9 +8,9 @@ export default function Home() {
   return (
     <>
       <div className="page-wrap">
-       <Navbar />
+        <Navbar />
         <Landing />
-       <ProductSection />
+        <ProductSection />
         <HowItWorks />
         <div className="s3">
           <div className="s3-container">

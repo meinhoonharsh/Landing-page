@@ -1,9 +1,9 @@
 import React from "react";
-
+import './styles/HowItWorks.scss'
 export default function HowItWorks() {
   return (
     <>
-      <div className="s2">
+      <div className="s2 howitworks">
         <div className="s2-wrapper">
           <div
             data-w-id="5b6da96c-f3bc-7ac5-0a8a-bf7907321711"
@@ -26,7 +26,7 @@ export default function HowItWorks() {
               >
                 <div className="s2-content-container">
                   <div className="s2-blur-container">
-                    <div className="s2-blur" />
+                    <div className="s2-blur is-blur-1" />
                   </div>
                   <div className="s2-icon-container">
                     <img
