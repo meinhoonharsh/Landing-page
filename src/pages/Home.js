@@ -1,10 +1,11 @@
 import React from "react";
+import Navbar from "../partials/Navbar";
 
 export default function Home() {
   return (
     <>
       <div className="page-wrap">
-       
+       <Navbar />
         <div className="hero-wrapper">
           <div className="hero-info-container">
             <div className="hero-info">
