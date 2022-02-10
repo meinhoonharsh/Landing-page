@@ -3,25 +3,19 @@ import React from "react";
 export default function WhyUs() {
   return (
     <>
-      <div className="s3">
+      <div className="s3 whyus">
         <div className="s3-container">
           <div className="s3-image-wrapper">
-            <div className="s3-image-container">
+            <div className="">
               <img
-                src="images/Graphic-Decentralized-Box.png"
-                loading="lazy"
-                data-w-id="16e7b7c0-73b3-38ef-b935-fa27dc948b0c"
-                sizes="(max-width: 479px) 90vw, (max-width: 991px) 72vw, (max-width: 1279px) 41vw, (max-width: 1439px) 42vw, 598px"
-                srcSet="
-            images/Graphic-Decentralized-Box-p-500.png   500w,
-            images/Graphic-Decentralized-Box-p-800.png   800w,
-            images/Graphic-Decentralized-Box-p-1080.png 1080w,
-            images/Graphic-Decentralized-Box.png        1117w
-          "
-                alt=""
+                src="assets/img/wu.png"
                 className="s3-box-image"
+                style={{
+                  width: "75%",
+                  margin:'auto'
+                }}
               />
-              <img
+              {/* <img
                 src="images/Graphic-Decentralized-Base.png"
                 loading="lazy"
                 data-w-id="2a136f4b-ce37-a8da-4149-6d5b14ea3029"
@@ -48,7 +42,7 @@ export default function WhyUs() {
           "
                 alt=""
                 className="s3-orbitals-image"
-              />
+              /> */}
             </div>
           </div>
           <div
