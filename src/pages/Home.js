@@ -3,6 +3,7 @@ import HowItWorks from "../partials/HowItWorks";
 import Landing from "../partials/Landing";
 import Navbar from "../partials/Navbar";
 import ProductSection from "../partials/ProductSection";
+import WhyUs from "../partials/WhyUs";
 
 export default function Home() {
   return (
@@ -12,7 +13,7 @@ export default function Home() {
         <Landing />
         <ProductSection />
         <HowItWorks />
-        
+        <WhyUs />
         <div className="s4">
           <div className="s4-container">
             <div
