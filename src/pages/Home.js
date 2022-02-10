@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "../partials/Footer";
 import HowItWorks from "../partials/HowItWorks";
 import Landing from "../partials/Landing";
 import Navbar from "../partials/Navbar";
@@ -16,6 +17,7 @@ export default function Home() {
         <HowItWorks />
         <WhyUs />
         <VersatileToken />
+        <Footer />
       </div>
     </>
   );
