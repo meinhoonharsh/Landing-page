@@ -10,15 +10,14 @@ export default function VersatileToken() {
             className="s6-info-container"
           >
             <h2 className="h2 is-small-h2">
-              Come for the memes stay for the protocol.
+                A Versatile Token
             </h2>
             <p className="p is-s6-p">
-              Sure, having the best price execution on the market is great. But
-              is it better than having a Discord server full of spicy memes?
-              We’re not sure.
-              <br />‍<br />
-              Join our community of meme-loving masterminds and get the inside
-              scoop on what’s coming down the pipeline.
+            Our on-platform liquidity pools let you seamlessly borrow, lend or swap your Real Estate Tokens.
+            Our on-platform liquidity pools let you seamlessly borrow, lend or swap your Real Estate Tokens.
+            </p>
+            <p className="p is-s6-p">
+            Our on-platform liquidity pools let you seamlessly borrow, lend or swap your Real Estate Tokens.
             </p>
             <a
               href="https://discord.com/invite/gRtqvfqW4V"
