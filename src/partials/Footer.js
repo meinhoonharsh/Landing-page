@@ -6,19 +6,26 @@ export default function Footer() {
       <div className="footer">
         <div className="footer-container">
           <div className="footer-legal">
-            Copyright ©<span className="copyright-year">year</span> Futureswap
+            Copyright ©<span className="copyright-year">year</span> Brickstox
             <br />
             All rights reserved &nbsp;| &nbsp;
             <a href="#" target="_blank" className="privacy-link">
               Privacy
             </a>
           </div>
-          <img
-            src="images/Logo-Futureswap.svg"
-            loading="lazy"
-            alt=""
-            className="footer-logo"
-          />
+          <div style={{
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+          }}>
+            <img
+              src="assets/img/logo.png"
+              loading="lazy"
+              alt=""
+              className="nav-logo"
+            />
+            <h2 style={{ color: "#fff" }}>Brickstox</h2>
+          </div>
           <div className="social-container">
             <a
               href="https://twitter.com/futureswapx"
