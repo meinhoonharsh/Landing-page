@@ -3,6 +3,7 @@ import HowItWorks from "../partials/HowItWorks";
 import Landing from "../partials/Landing";
 import Navbar from "../partials/Navbar";
 import ProductSection from "../partials/ProductSection";
+import VersatileToken from "../partials/VersatileToken";
 import WhyUs from "../partials/WhyUs";
 
 export default function Home() {
@@ -14,7 +15,7 @@ export default function Home() {
         <ProductSection />
         <HowItWorks />
         <WhyUs />
-       
+        <VersatileToken />
 
         <div className="s4">
           <div className="s4-container">
