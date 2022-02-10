@@ -27,8 +27,8 @@ export default function Footer() {
             <h2 style={{ color: "#fff" }}>Brickstox</h2>
           </div>
           <div className="social-container">
-            <a
-              href="https://twitter.com/futureswapx"
+          <a
+              href="https://twitter.com/brickstox"
               target="_blank"
               className="social-holder w-inline-block"
             >
@@ -46,7 +46,25 @@ export default function Footer() {
               />
             </a>
             <a
-              href="https://discord.com/invite/gRtqvfqW4V"
+              href="https://discord.com/invite/rDgkHtfX"
+              target="_blank"
+              className="social-holder w-inline-block"
+            >
+              <img
+                src="images/Icon-Discord-Gray.svg"
+                loading="lazy"
+                alt=""
+                className="gray-social"
+              />
+              <img
+                src="images/Icon-Discord-Green.svg"
+                loading="lazy"
+                alt=""
+                className="green-social"
+              />
+            </a>
+            <a
+              href="https://www.linkedin.com/company/the-ledger-company0"
               target="_blank"
               className="social-holder w-inline-block"
             >
