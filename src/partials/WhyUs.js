@@ -55,15 +55,12 @@ export default function WhyUs() {
             data-w-id="dd382521-3a47-1d9a-0f32-82e357f71309"
             className="s3-info-container"
           >
-            <h2 className="h2 is-small-h2">
-              Fully decentralized. Completely secure.
-            </h2>
+            <h2 className="h2 is-small-h2">Why Invest with Us?</h2>
             <p className="p is-s3-p">
-              We have all been in this industry too long not to make the
-              security of your funds our absolute top priority. &nbsp;That’s
-              why, so far, we’ve spent upwards of $450k on audits from Open
-              Zeppelin and Trail of Bits, as well as code reviews from white
-              hats.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Pellentesque euismod, urna eu tincidunt consectetur, nisi nisl
+              porta nisl, eget porttitor nisl nisi eu nisl. Pellentesque
+              euismod, urna eu tincidunt consectetur, nisi
             </p>
             <div className="s3-list-container">
               <div className="s3-list-item">
@@ -74,7 +71,7 @@ export default function WhyUs() {
                   className="s3-icon"
                 />
                 <div className="s3-item-description">
-                  Constant reviews and testing of our platform
+                  Diversify your portfolio and invest as high/low as you want.
                 </div>
               </div>
               <div className="s3-list-item">
@@ -85,7 +82,7 @@ export default function WhyUs() {
                   className="s3-icon"
                 />
                 <div className="s3-item-description">
-                  Your funds are as secure as possible
+                  Hassle-free investing with high liquidity.
                 </div>
               </div>
               <div className="s3-list-item">
@@ -96,7 +93,8 @@ export default function WhyUs() {
                   className="s3-icon"
                 />
                 <div className="s3-item-description">
-                  Fully decentralized and non-custodial
+                  We handpick every property, with high IRR, after complete due
+                  diligence.
                 </div>
               </div>
               <div className="s3-list-item">
@@ -107,7 +105,8 @@ export default function WhyUs() {
                   className="s3-icon"
                 />
                 <div className="s3-item-description">
-                  Built by seasoned crypto veterans
+                  Bridge up the gap between conventional Real Estate and Open
+                  Finance
                 </div>
               </div>
             </div>
