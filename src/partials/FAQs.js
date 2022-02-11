@@ -94,6 +94,7 @@ class Accordion extends React.Component {
     const { activeTab } = this.state;
     return (
       <div className="faqs-body">
+          <h2 className="h2">FAQs</h2>
         <div className="accordion" role="tablist">
           {panels.map((panel, index) => (
             <Panel
