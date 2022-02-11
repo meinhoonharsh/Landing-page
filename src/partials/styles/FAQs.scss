@@ -22,6 +22,7 @@
 }
 .panel {
   background-color: #0f0f23;
+  border-radius: 10px
 }
 .panel__label {
   position: relative;
@@ -78,6 +79,6 @@
   transition: opacity 0.3s linear 0.18s;
 }
 .panel:not(:last-child) {
-  margin-bottom: 3px;
+  margin-bottom: 20px;
 }
 }
