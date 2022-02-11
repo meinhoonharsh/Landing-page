@@ -6,6 +6,7 @@ import Navbar from "../partials/Navbar";
 import ProductSection from "../partials/ProductSection";
 import VersatileToken from "../partials/VersatileToken";
 import WhyUs from "../partials/WhyUs";
+import FAQs from "../partials/FAQs";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
         <HowItWorks />
         <WhyUs />
         <VersatileToken />
+        <FAQs />
         <Footer />
       </div>
     </>
