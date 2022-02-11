@@ -12,16 +12,16 @@
   font-size: 16px;
   line-height: 1.4;
   font-family: 'Montserrat', sans-serif;
-  color: #372717;
+  color: #fffd;
   box-sizing: border-box;
   overflow-y: scroll;
 
 .accordion {
   width: 100%;
-  max-width: 470px;
+  max-width: 700px;
 }
 .panel {
-  background-color: #f0ebe1;
+  background-color: #0f0f23;
 }
 .panel__label {
   position: relative;
@@ -32,7 +32,8 @@
   text-align: left;
   padding: 25px 60px 25px 25px;
   font-weight: 500;
-  font-size: 17px;
+  font-size: 22px;
+  font-weight: bold;
   font-family: inherit;
   transition: color 0.2s linear;
   cursor: pointer;
@@ -49,7 +50,7 @@
   width: 22px;
   height: 2px;
   margin-top: -2px;
-  background-color: #372717;
+  background-color: #00e0b8;
 }
 .panel__label:before {
   transform: rotate(-90deg);
@@ -59,7 +60,7 @@
   opacity: 1;
 }
 .panel[aria-expanded='true'] .panel__label {
-  color: #957029;
+  color: #00e0b8;
 }
 .panel[aria-expanded='true'] .panel__label:before {
   transform: rotate(0deg);
@@ -71,8 +72,8 @@
 }
 .panel__content {
   margin: 5px 25px 25px;
-  font-size: 14px;
-  color: #756658;
+  font-size: 1em;
+  color: #fffc;
   opacity: 0;
   transition: opacity 0.3s linear 0.18s;
 }
