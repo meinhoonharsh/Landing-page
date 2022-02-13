@@ -9,10 +9,9 @@ export default function HowItWorks() {
             data-w-id="5b6da96c-f3bc-7ac5-0a8a-bf7907321711"
             className="s2-info-container"
           >
-            <h2 className="h2">How It Works</h2>
+            <h2 className="h2">How we peice it together </h2>
             <p className="p is-s2-p">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Pellentesque euismod, urna eu tincidunt consectetur.
+            Brickstox is a marketplace where you can invest in Real Estate backed NFTs, and use them in Open Finance.
             </p>
           </div>
           <div className="s2-blocks-wrapper">

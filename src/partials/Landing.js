@@ -6,18 +6,17 @@ export default function Landing() {
       <div className="hero-wrapper">
         <div className="hero-info-container">
           <div className="hero-info">
-            <div className="hero-subheader">Real Estate</div>
-            <h1 className="h1">Ecosystem in Decentralized Finance</h1>
+            <div className="hero-subheader">Introducing</div>
+            <h1 className="h1">Real Estate Backed NFTs</h1>
             <p className="p">
-              We aim to democratize real estate investments so that anyone from
-              anywhere can invest in real estate and leverage it in defi world.
+              Invest in a non-volatile, familiar asset backed NFT with real world value and earn regular returns.
             </p>
             <div className="hero-buttons-container">
               <a
                 href="https://app.futureswap.com/"
                 className="filled-button is-filled-hero-button w-button"
               >
-                Start Trading
+                Discord
               </a>
               <a
                 href="https://app.futureswap.com/pool"

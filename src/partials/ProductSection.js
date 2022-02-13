@@ -9,9 +9,9 @@ export default function ProductSection() {
             <div className="s1-block-container">
               <div className="s1-block">
                 <div className="s1-content-container">
-                  <h3 className="h3">All-time trade volume</h3>
+                  <h3 className="h3"></h3>
                   <div className="s1-numbers">
-                    $<span className="counter">4,200,368,117</span>
+                    <span className="counter">16% IRR</span>
                   </div>
                 </div>
                 <div className="s1-gradient-glow" />
@@ -24,9 +24,9 @@ export default function ProductSection() {
             <div className="s1-block-container">
               <div className="s1-block">
                 <div className="s1-content-container">
-                  <h3 className="h3">All-time trade volume</h3>
+                  <h3 className="h3">Marketplace</h3>
                   <div className="s1-numbers">
-                    $<span className="counter">4,200,368,117</span>
+                    <span className="counter">Choose from a variety of listed NFTs</span>
                   </div>
                 </div>
                 <div className="s1-gradient-glow" />
@@ -37,9 +37,22 @@ export default function ProductSection() {
             <div className="s1-block-container is-total-trades-block-container">
               <div className="s1-block">
                 <div className="s1-content-container">
-                  <h3 className="h3 is-green-h3">Total Trades</h3>
+                  <h3 className="h3 is-green-h3">Regular Returns</h3>
                   <div className="s1-numbers">
-                    <span className="counter">10,434</span>
+                    <span className="counter">Earn from regular rent and price appreciation</span>
+                  </div>
+                </div>
+                <div className="s1-gradient-glow is-green-gradient-glow" />
+                <div className="s1-gradient-mask" />
+                <div className="s1-gradient-outline" />
+              </div>
+            </div>
+            <div className="s1-block-container is-total-trades-block-container">
+              <div className="s1-block">
+                <div className="s1-content-container">
+                  <h3 className="h3 is-green-h3">Trade</h3>
+                  <div className="s1-numbers">
+                    <span className="counter">Liquidate anytime</span>
                   </div>
                 </div>
                 <div className="s1-gradient-glow is-green-gradient-glow" />
