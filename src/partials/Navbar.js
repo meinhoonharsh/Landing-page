@@ -41,7 +41,7 @@ export default function NAvbar() {
                   alt=""
                   className="nav-link"
                 />
-                <div className="nav-link-name"> Something</div>
+                <div className="nav-link-name"> Marketplace</div>
               </a>
               <a
                 href="https://app.futureswap.com/"

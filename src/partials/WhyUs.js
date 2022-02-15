@@ -51,10 +51,8 @@ export default function WhyUs() {
           >
             <h2 className="h2 is-small-h2">Why Invest with Us?</h2>
             <p className="p is-s3-p">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Pellentesque euismod, urna eu tincidunt consectetur, nisi nisl
-              porta nisl, eget porttitor nisl nisi eu nisl. Pellentesque
-              euismod, urna eu tincidunt consectetur, nisi
+              We are bridging the gap between conventional asset and Decentralized Finance.
+              We are experts of both the Real Estate and Blockchain industry.
             </p>
             <div className="s3-list-container">
               <div className="s3-list-item">

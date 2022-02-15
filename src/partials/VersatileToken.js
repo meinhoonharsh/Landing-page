@@ -12,13 +12,9 @@ export default function VersatileToken() {
             <h2 className="h2 is-small-h2">A Versatile Token</h2>
             <p className="p is-s6-p">
               Our on-platform liquidity pools let you seamlessly borrow, lend or
-              swap your Real Estate Tokens. Our on-platform liquidity pools let
-              you seamlessly borrow, lend or swap your Real Estate Tokens.
+              swap your Real Estate Tokens. 
             </p>
-            <p className="p is-s6-p">
-              Our on-platform liquidity pools let you seamlessly borrow, lend or
-              swap your Real Estate Tokens.
-            </p>
+           
             <a
               href="https://discord.com/invite/gRtqvfqW4V"
               className="filled-button w-button"
