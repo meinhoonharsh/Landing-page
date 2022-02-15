@@ -1,0 +1,119 @@
+:root {
+  --primaryblue: #0071e3;
+  --darkblue: #040023;
+  --yaleblue: #005b92;
+  --lightblue: #4ad8fe;
+  --steelblue: #358bc6;
+  --orange: #fca51a;
+  --violet: #a509b2;
+  --slateblue: #e0eaf4;
+  --turquoise: #1fefcb;
+  --pink: #ff0175;
+  --white: #fff;
+  --black: #000;
+}
+.roadmap {
+  .initiativescontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0 10%;
+  }
+  .initiativediv {
+    margin: 0 30px;
+  }
+  .initiativediv:nth-child(odd) {
+    margin-top: 90px;
+  }
+  .iniiconbox {
+    /* background:var(--turquoise); */
+    /* aspect-ratio: 1/1;
+        height: 230px; */
+    width: 60%;
+  }
+  .iniinfo {
+    margin-top: -110px;
+  }
+  .iniinfo p {
+    font-size: 0.9em;
+    color: #fff9;
+  }
+  .iniinfo h4 {
+    padding-bottom: 20px;
+    border-bottom: 3px solid currentColor;
+  }
+  .turquoise h4,
+  .turquoise .tab-wrap,
+  .turquoise .shadowdiv {
+    color: var(--turquoise) !important;
+  }
+  .orange h4,
+  .orange .tab-wrap,
+  .orange .shadowdiv {
+    color: var(--orange) !important;
+  }
+  .pink h4,
+  .pink .tab-wrap,
+  .pink .shadowdiv {
+    color: var(--pink) !important;
+  }
+  .violet h4,
+  .violet .tab-wrap,
+  .violet .shadowdiv {
+    color: var(--violet) !important;
+  }
+  .yaleblue h4,
+  .yaleblue .tab-wrap,
+  .yaleblue .shadowdiv {
+    color: var(--yaleblue) !important;
+  }
+  .primaryblue h4,
+  .primaryblue .tab-wrap,
+  .primaryblue .shadowdiv {
+    color: var(--primaryblue) !important;
+  }
+  .lightblue h4,
+  .lightblue .tab-wrap,
+  .lightblue .shadowdiv {
+    color: var(--lightblue) !important;
+  }
+  .steelblue h4,
+  .steelblue .tab-wrap,
+  .steelblue .shadowdiv {
+    color: var(--steelblue) !important;
+  }
+  .tab-wrap {
+    position: relative;
+    background: var(--slateblue);
+    width: 60%;
+    aspect-ratio: 1/1;
+    margin: 0 auto 0;
+    padding: 0 30px;
+    border-radius: 30px;
+    font-size: 4.5em;
+    text-align: center;
+    transition: transform 0.75s ease, box-shadow 0.75s ease;
+    border-bottom: 10px solid currentColor;
+    border-left: 4px solid currentColor;
+    color: var(--turquoise);
+
+    transform: rotate3d(3, 1, -2.5, 60deg);
+    box-shadow: -2px 2px 0 -1px currentColor, -4px 4px 0 -2px currentColor,
+      -6px 6px 0 -3px currentColor, -8px 8px 0 -4px currentColor;
+
+    transition: top 1s ease;
+  }
+  .initiativediv:hover img {
+    top: 20px;
+  }
+  .shadowdiv {
+    aspect-ratio: 1/1;
+    width: 100%;
+    transform: rotate3d(3, 1, -2.5, 60deg);
+    position: relative;
+    top: -90px;
+    z-index: -1;
+    opacity: 0.6;
+    background-image: radial-gradient(currentColor, transparent 70%);
+  }
+}
