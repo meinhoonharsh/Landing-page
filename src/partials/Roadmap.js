@@ -3,21 +3,21 @@ import "./styles/Roadmap.scss";
 
 export default function Roadmap() {
   const Initiatives = [
-    ["Q3 2021", "Ideation, prototyping, Advisory", "primaryblue"],
+    ["Q3 2021", "Ideation, prototyping, Advisory", "pink"],
     [
       "Q1 2022",
       "Market validation, community building, MVP, fundraising",
-      "pink"
+      "lightblue"
     ],
     [
       "Q2 2022",
       "Product Launch, First Property Listing, pre-ICO/ICO launch, legal structuring",
-      "turqoise"
+      "primaryblue"
     ],
     [
       "Q3 2022",
       "Partnerships, Pipeline of projects, adding new features like NFT liquidity pools",
-      "yaleblue"
+      "violet"
     ]
   ];
   return (
@@ -29,7 +29,7 @@ export default function Roadmap() {
             <div class={"initiativediv  " + initiative[2]}>
               <div class=" iniiconbox">
                 <img
-                  src={"/assets/img/icons/" + (index+1) + ".png"}
+                  src={"/assets/img/roadmapicons/" + (index+1) + ".png"}
                   style={{
                     position: "relative",
                     transition: "0.5s ease",
