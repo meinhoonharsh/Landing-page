@@ -22,6 +22,7 @@ export default function Roadmap() {
   ];
   return (
     <div className="roadmap">
+      <h2>Roadmap</h2>
       <div class="initiativescontainer">
         {Initiatives.map((initiative, index) => {
           return (
