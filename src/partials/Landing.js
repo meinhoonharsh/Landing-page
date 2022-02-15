@@ -1,9 +1,10 @@
 import React from "react";
+import './styles/Landing.scss'
 
 export default function Landing() {
   return (
     <>
-      <div className="hero-wrapper">
+      <div className="hero-wrapper landing">
         <div className="hero-info-container">
           <div className="hero-info">
             <div className="hero-subheader">Introducing</div>
@@ -29,9 +30,9 @@ export default function Landing() {
         </div>
         <div className="waves-wrapper">
           <div className="waves-container">
-            <img src="assets/img/landing-02.png" />
-            <img src="assets/img/landing-brain.png" />
-            <img src="assets/img/landingbitcoin.png" />
+            <img src="assets/img/landing.png"  />
+            <img src="assets/img/landing-brain.png" className="landing-brain" />
+            <img src="assets/img/landing-bitcoin.png" className="landing-bitcoin" />
             {/* <img
                 src="images/Graphic-Hero-Blur.jpg"
                 loading="lazy"
