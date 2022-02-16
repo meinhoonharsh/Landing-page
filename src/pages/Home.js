@@ -15,11 +15,11 @@ export default function Home() {
       <div className="page-wrap">
         <Navbar />
         <Landing />
-        <Roadmap />
         <ProductSection />
         <HowItWorks />
+        <Roadmap />
         <WhyUs />
-        <VersatileToken />
+        {/* <VersatileToken /> */}
         <FAQs />
         <Footer />
       </div>

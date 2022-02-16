@@ -3,7 +3,7 @@ import "./styles/Roadmap.scss";
 
 export default function Roadmap() {
   const Initiatives = [
-    ["Q3 2021", "Ideation, prototyping, Advisory", "pink"],
+    ["Q4 2021", "Ideation, prototyping, Advisory", "pink"],
     [
       "Q1 2022",
       "Market validation, community building, MVP, fundraising",
@@ -29,7 +29,7 @@ export default function Roadmap() {
             <div class={"initiativediv  " + initiative[2]}>
               <div class=" iniiconbox">
                 <img
-                  src={"/assets/img/roadmapicons/" + (index+1) + ".png"}
+                  src={"/assets/img/roadmapicons/" + (index + 1) + ".png"}
                   style={{
                     position: "relative",
                     transition: "0.5s ease",
@@ -46,6 +46,19 @@ export default function Roadmap() {
             </div>
           );
         })}
+      </div>
+      <div className="content">
+        <span>
+          To stay updated about upcoming investment opportunities and our ICO
+          launch, please join our discord server
+        </span>
+
+        <a
+          href="https://discord.com/invite/gRtqvfqW4V"
+          className="filled-button w-button"
+        >
+          I need memes
+        </a>
       </div>
     </div>
   );
