@@ -8,6 +8,7 @@ import VersatileToken from "../partials/VersatileToken";
 import WhyUs from "../partials/WhyUs";
 import FAQs from "../partials/FAQs";
 import Roadmap from "../partials/Roadmap";
+import ProdSection from "../partials/ProdSection";
 
 export default function Home() {
   return (
@@ -15,7 +16,8 @@ export default function Home() {
       <div className="page-wrap">
         <Navbar />
         <Landing />
-        <ProductSection />
+        {/* <ProductSection /> */}
+        <ProdSection />
         <HowItWorks />
         <Roadmap />
         <WhyUs />
