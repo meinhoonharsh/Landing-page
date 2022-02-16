@@ -1,0 +1,44 @@
+.prodsection {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 10% auto;
+  max-width: 1000px;
+  gap: 2%;
+  .sidediv {
+    min-width: 250px;
+    width: 29%;
+    padding: 30px;
+    background-color: #0f0f23;
+    border-radius: 20px;
+    text-align: center;
+  }
+  .left {
+    box-shadow: 0px 0px 400px 1px #00e0b8;
+  }
+  .right {
+    box-shadow: 0px 0px 400px 1px #64ffda;
+  }
+  .centerdiv {
+    width: 38%;
+    aspect-ratio: 1/1;
+    padding: 20px;
+    border-radius: 50%;
+    background-color: #0f0f23;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    h2 {
+      font-size: 2em;
+      span {
+        font-size: 4rem;
+        // set color to gradient of blue and green from css
+        color: #00e0b8;
+      }
+    }
+  }
+}

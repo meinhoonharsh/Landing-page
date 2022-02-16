@@ -1,4 +1,5 @@
 import React from "react";
+import './styles/ProdSection.scss';
 
 export default function ProdSection() {
   return (
