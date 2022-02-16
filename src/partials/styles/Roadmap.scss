@@ -25,10 +25,14 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    flex-wrap:wrap;
+
     margin: 0 10%;
   }
   .initiativediv {
-    margin: 0 30px;
+    width: 25%;
+    min-width:250px;
+    padding: 0 30px;
   }
   .initiativediv:nth-child(odd) {
     margin-top: 90px;
