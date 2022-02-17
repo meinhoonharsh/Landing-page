@@ -124,7 +124,7 @@ body {
   -ms-flex-align: center;
   align-items: center;
   border-radius: 100px;
-  background-image: linear-gradient(to right, var(--bblue), var(--bpink));
+  background-image: linear-gradient(60deg, var(--bblue), var(--bpink));
   -webkit-transition: box-shadow 300ms ease;
   transition: box-shadow 300ms ease;
   font-family: Biennale, sans-serif;
@@ -132,10 +132,34 @@ body {
   font-size: 19px;
   line-height: 1;
   font-weight: 800;
+  position: relative !important;
 }
 
-.filled-button:hover {
-  box-shadow: 0 15px 56px 0 rgba(0, 224, 184, 0.4);
+.filled-button:hover::after {
+  
+  content: "";
+  position: absolute;
+  z-index: -1;
+  bottom: -10px;
+  left: 5%;
+  height: 110%;
+  width: 90%;
+  opacity: 0.8;
+  border-radius: 50px;
+  
+  /* Declaring our shadow color inherit from the parent (button) */
+  background: inherit;
+  /* Changing blur effect */
+  -webkit-filter: blur(40px);
+  -moz-filter: blur(40px);
+  -o-filter: blur(40px);
+  -ms-filter: blur(40px);
+  filter: blur(40px);
+
+  /* And change the style properties */
+  width: 100%;
+  bottom: -5px;
+  left: 0;
 }
 
 .filled-button.is-filled-hero-button {

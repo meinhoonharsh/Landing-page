@@ -16,6 +16,9 @@ export default function Landing() {
               <a
                 href="https://app.futureswap.com/"
                 className="filled-button is-filled-hero-button w-button"
+                style={{
+                  position: "relative",
+                }}
               >
                 Discord
               </a>
