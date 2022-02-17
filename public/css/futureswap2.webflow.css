@@ -124,14 +124,14 @@ body {
   -ms-flex-align: center;
   align-items: center;
   border-radius: 100px;
-  background-color: #00e0b8;
+  background-image: linear-gradient(to right, var(--bblue), var(--bpink));
   -webkit-transition: box-shadow 300ms ease;
   transition: box-shadow 300ms ease;
   font-family: Biennale, sans-serif;
   color: #07071c;
-  font-size: 17px;
+  font-size: 19px;
   line-height: 1;
-  font-weight: 500;
+  font-weight: 800;
 }
 
 .filled-button:hover {

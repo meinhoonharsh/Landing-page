@@ -11,49 +11,57 @@
   --pink: #ff0175;
   --white: #fff;
   --black: #000;
+  --bblue: #00C4FF;
+  --bpink: #FF42A3;
 }
+
+.gtext {
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 800;
+  background-image: linear-gradient(45deg, var(--bblue), var(--bpink));
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
 .roadmap {
   margin-top: 10%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  .content{
+  .content {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap:20px;
+    gap: 20px;
     max-width: 900px;
-    width:95%;
+    width: 95%;
     text-align: center;
-    margin-top:15%;
-    span{
+    margin-top: 15%;
+    span {
       font-size: 2.5rem;
-      font-weight:500;
-      i{
-        text-transform: uppercase;
-        color: #ff42a3;
-        font-style: normal;
-        font-weight: 800;
-      }
-
+      font-weight: 500;
     }
   }
   h2 {
     font-size: 3em;
-    font-family: 'Biennale', 'sans-serif'
+    font-family: "Biennale", "sans-serif";
   }
   .initiativescontainer {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
 
     margin: 0 10%;
   }
   .initiativediv {
     width: 25%;
-    min-width:250px;
+    min-width: 250px;
     padding: 0 30px;
   }
   .initiativediv:nth-child(odd) {
@@ -71,7 +79,7 @@
   .iniinfo p {
     font-size: 0.92em;
     color: #fff;
-    font-family: Helvetica, 'sans-serif';
+    font-family: Helvetica, "sans-serif";
   }
   .iniinfo h4 {
     padding-bottom: 20px;

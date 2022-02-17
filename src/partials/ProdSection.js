@@ -10,7 +10,7 @@ export default function ProdSection() {
               <span>Choose from a variety of listed NFTs</span>
           </div>
           <div className="centerdiv">
-              <h2>upto <span>20%</span> IRR</h2>
+              <h2>upto <span class="gtext">20%</span> IRR</h2>
               <span>Earn from regular rent and price appreciation</span>
           </div>
           <div className="sidediv right">
