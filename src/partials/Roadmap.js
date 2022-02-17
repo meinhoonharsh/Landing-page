@@ -57,7 +57,7 @@ export default function Roadmap() {
           href="https://discord.com/invite/gRtqvfqW4V"
           className="filled-button w-button"
         >
-          I need memes
+          Join Discord
         </a>
       </div>
     </div>
