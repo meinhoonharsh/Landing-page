@@ -49,7 +49,7 @@ export default function Roadmap() {
       </div>
       <div className="content">
         <span>
-          To stay updated about upcoming investment opportunities and our ICO
+          To stay updated about upcoming <i>investment opportunities</i> and our <i>ICO</i> &nbsp;
           launch, please join our discord server
         </span>
 
