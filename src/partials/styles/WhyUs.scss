@@ -1,6 +1,19 @@
 .whyus{
     margin-bottom: 5%;
+    margin-top: 100px;
     .s3-container{
         display:flex;justify-content:center;align-items:center;
+        .s3-content{
+            text-align:center;
+            p{
+                width: 95%;
+                max-width: 900px;
+                margin: 0 auto;
+            }
+        }
+    }
+    .whyusimg{
+        width: 90%;
+        max-width: 1200px;
     }
 }
