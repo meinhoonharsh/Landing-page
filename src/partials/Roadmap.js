@@ -3,21 +3,21 @@ import "./styles/Roadmap.scss";
 
 export default function Roadmap() {
   const Initiatives = [
-    ["Q4 2021", "Ideation, prototyping, Advisory", "pink"],
+    ["Q4 2021", "Ideation, prototyping, Advisory", "lightblue"],
     [
       "Q1 2022",
       "Market validation, community building, MVP, fundraising",
-      "lightblue"
+      "primaryblue"
     ],
     [
       "Q2 2022",
       "Product Launch, First Property Listing, pre-ICO/ICO launch, legal structuring",
-      "primaryblue"
+      "violet"
     ],
     [
       "Q3 2022",
       "Partnerships, Pipeline of projects, adding new features like NFT liquidity pools",
-      "violet"
+      "pink"
     ]
   ];
   return (
