@@ -1,0 +1,22 @@
+.whyus{
+    margin-bottom: 5%;
+    margin-top: 100px;
+    .s3-container{
+        display:flex;justify-content:center;align-items:center;
+        .s3-content{
+            text-align:center;
+            p{
+                width: 95%;
+                max-width: 900px;
+                font-size:1.5em;
+                margin: 0 auto;
+                padding-top: 2%;
+            }
+        }
+    }
+    .whyusimg{
+        width: 90%;
+        margin-top: 4%;
+        max-width: 1200px;
+    }
+}

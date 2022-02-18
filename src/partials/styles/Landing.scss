@@ -1,0 +1,37 @@
+.landing{
+    .hero-info{
+        p{
+            font-size:1.2em;
+        }
+
+    }
+    .landing-brain{
+        animation: upDown 2s ease-in-out infinite;
+    }
+    .landing-bitcoin{
+        animation: upDown 3s ease-in-out infinite;
+    }
+    .landing-humans{
+        animation: upDown 4s ease-in-out infinite;
+    }
+    .waves-container{
+        position: relative;
+        img{
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+    }
+}
+// Create Up Down Animation
+@keyframes upDown {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}

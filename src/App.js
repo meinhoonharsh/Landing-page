@@ -1,15 +1,9 @@
-import React from "react";
-import Navbar from "./components/Navbar";
-import "./App.css";
-import { BrowserRouter} from "react-router-dom";
-
+import Home from "./pages/Home";
 
 function App() {
   return (
     <>
-      <BrowserRouter>
-        <Navbar />
-      </BrowserRouter>
+      <Home />
     </>
   );
 }
