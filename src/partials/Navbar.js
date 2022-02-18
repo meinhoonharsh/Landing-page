@@ -41,7 +41,16 @@ export default function NAvbar() {
                   alt=""
                   className="nav-link"
                 />
-                <div className="nav-link-name"> Marketplace</div>
+                <div className="nav-link-name"> Marketplace <span style={{
+                  position:'absolute',
+                  top:'-10px',
+                  backgroundColor:'var(--bpink)',
+
+                  borderRadius:'5px',
+                  right:0,
+                  padding:'4px',
+                  fontSize:'0.6em',
+                }}>Coming Soon</span></div>
               </a>
               <a
                 href="https://app.futureswap.com/"
