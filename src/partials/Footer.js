@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="footer">
         <div className="footer-container">
           <div className="footer-legal">
-            Copyright ©<span className="copyright-year">year</span> Brickstox
+            Copyright ©<span className="copyright-year">2022</span> Brickstox
             <br />
             All rights reserved &nbsp;| &nbsp;
             <a href="#" target="_blank" className="privacy-link">
@@ -63,7 +63,7 @@ export default function Footer() {
                 className="green-social"
               />
             </a>
-            <a
+            {/* <a
               href="https://www.linkedin.com/company/the-ledger-company0"
               target="_blank"
               className="social-holder w-inline-block"
@@ -80,7 +80,7 @@ export default function Footer() {
                 alt=""
                 className="green-social"
               />
-            </a>
+            </a> */}
           </div>
         </div>
       </div>
