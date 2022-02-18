@@ -11,7 +11,7 @@ export default function HowItWorks() {
           >
             <h2 className="h2">How we peice it together </h2>
             <p className="p is-s2-p">
-            Brickstox is a marketplace where you can invest in Real Estate backed NFTs, and use them in Open Finance.
+            Brickstox is a marketplace where you can invest in Real Estate backed NFTs, and use them in Decentralized Finance.
             </p>
           </div>
           <div className="s2-blocks-wrapper">

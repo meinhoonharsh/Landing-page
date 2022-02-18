@@ -12,8 +12,7 @@ export default function WhyUs() {
             <h2 className="h2 is-small-h2">Why Invest with Us?</h2>
             <p className="p">
               We are bridging the gap between conventional asset and
-              Decentralized Finance. We are experts of both the Real Estate and
-              Blockchain industry.
+              Decentralized Finance.
             </p>
             <img src="/assets/img/whyus.png" alt="" className="whyusimg" />
           </div>

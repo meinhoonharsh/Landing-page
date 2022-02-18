@@ -22,7 +22,7 @@ export default function Home() {
         <Roadmap />
         <WhyUs />
         {/* <VersatileToken /> */}
-        <FAQs />
+        {/* <FAQs /> */}
         <Footer />
       </div>
     </>

@@ -6,7 +6,7 @@ export default function ProdSection() {
     <>
       <div className="prodsection">
           <div className="sidediv left">
-              <h3>MarketPlace</h3>
+              <h3>Marketplace</h3>
               <span>Choose from a variety of listed NFTs</span>
           </div>
           <div className="centerdiv">
@@ -14,8 +14,8 @@ export default function ProdSection() {
               <span>Earn from regular rent and price appreciation</span>
           </div>
           <div className="sidediv right">
-            <h3>Regular Returns</h3>
-            <span>Earn from regular rent and price appreciation</span>
+            <h3>Liquidate</h3>
+            <span>Trade anytime in just few clicks</span>
           </div>
       </div>
     </>
