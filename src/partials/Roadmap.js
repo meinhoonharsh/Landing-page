@@ -54,7 +54,7 @@ export default function Roadmap() {
         </span>
 
         <a
-          href="https://discord.com/invite/gRtqvfqW4V"
+          href="https://discord.gg/vvjGTMkC"
           className="filled-button w-button"
         >
           Join Discord

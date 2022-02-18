@@ -31,7 +31,7 @@ export default function NAvbar() {
             <div className="nav-menu">
               <a
                 data-w-id="b884066b-dfe0-b27f-d8b6-602283a3d9b0"
-                href="https://discord.gg/futureswap"
+                href="#"
                 target="_blank"
                 className="nav-link-block w-inline-block"
               >
@@ -53,7 +53,7 @@ export default function NAvbar() {
                 }}>Coming Soon</span></div>
               </a>
               <a
-                href="https://app.futureswap.com/"
+                href="https://discord.gg/vvjGTMkC"
                 className="nav-link-block w-inline-block is-filled-hero-button w-button filled-button"
                 style={{ color: "#07071c" }}
               >

@@ -14,19 +14,19 @@ export default function Landing() {
             </p>
             <div className="hero-buttons-container">
               <a
-                href="https://app.futureswap.com/"
+                href="https://discord.gg/vvjGTMkC"
                 className="filled-button is-filled-hero-button w-button"
                 style={{
                   position: "relative",
                 }}
               >
-                Discord
+                Join Discord
               </a>
               <a
-                href="https://app.futureswap.com/pool"
+                href="#whyusvideo"
                 className="outlined-button w-button gtext"
               >
-                Add Liquidity
+                How It Works!
               </a>
             </div>
           </div>
