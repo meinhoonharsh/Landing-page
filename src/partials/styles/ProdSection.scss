@@ -54,4 +54,25 @@
       }
     }
   }
+
+  @media screen and (max-width: 810px) {
+    .sidediv {
+      width: 45%;
+      margin: 5% auto;
+    }
+    .centerdiv {
+      width: 60%;
+    }
+  
+    
+  }
+  @media screen and (max-width: 485px) {
+    .sidediv {
+      width: 90%;
+      margin: 5% auto;
+    }
+    .centerdiv {
+      width: 90%;
+    }
+  }
 }
