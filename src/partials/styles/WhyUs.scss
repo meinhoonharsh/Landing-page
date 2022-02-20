@@ -15,8 +15,48 @@
         }
     }
     .whyusimg{
-        width: 90%;
+        width: 100%;
         margin-top: 4%;
         max-width: 1200px;
     }
+    
 }
+
+
+
+.desktop{
+    display:block;
+}
+.tablet{
+    display:none;
+}
+.mobile{
+    display:none;
+}
+@media screen and (max-width: 768px){
+    .whyusimg{
+        width: 100%;
+    }
+    .desktop{
+        display:none;
+    }
+    .tablet{
+        display:block;
+    }
+    .mobile{
+        display:none;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .desktop{
+        display:none;
+    }
+    .tablet{
+        display:none;
+    }
+    .mobile{
+        display:block;
+    }
+}
+ 
