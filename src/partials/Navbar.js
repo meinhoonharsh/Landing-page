@@ -53,7 +53,7 @@ export default function NAvbar() {
                 }}>Coming Soon</span></div>
               </a>
               <a
-                href="https://discord.gg/vvjGTMkC"
+                href="https://discord.gg/SPkGXSeV2m"
                 className="nav-link-block w-inline-block is-filled-hero-button w-button filled-button"
                 style={{ color: "#07071c" }}
               >

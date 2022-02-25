@@ -14,7 +14,7 @@ export default function Landing() {
             </p>
             <div className="hero-buttons-container">
               <a
-                href="https://discord.gg/vvjGTMkC"
+                href="https://discord.gg/SPkGXSeV2m"
                 className="filled-button is-filled-hero-button w-button"
                 style={{
                   position: "relative",

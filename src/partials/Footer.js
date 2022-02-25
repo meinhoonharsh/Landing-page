@@ -46,7 +46,7 @@ export default function Footer() {
               />
             </a>
             <a
-              href="https://discord.gg/vvjGTMkC"
+              href="https://discord.gg/SPkGXSeV2m"
               target="_blank"
               className="social-holder w-inline-block"
             >
