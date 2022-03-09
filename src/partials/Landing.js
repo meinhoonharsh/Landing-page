@@ -34,9 +34,6 @@ export default function Landing() {
         <div className="waves-wrapper">
           <div className="waves-container">
             <img src="assets/img/landing.png"  />
-            <img src="assets/img/landing-brain.png" className="landing-brain" />
-            <img src="assets/img/landing-bitcoin.png" className="landing-bitcoin" />
-            <img src="assets/img/landing-humans.png" className="landing-humans" />
             
             {/* <img
                 src="images/Graphic-Hero-Blur.jpg"
