@@ -1,0 +1,49 @@
+.realnftcontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10% 0;
+  & > div {
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+    .heading {
+      font-style: normal;
+      background-image: linear-gradient(120deg, var(--bblue), var(--bpink));
+      background-size: 100%;
+      -webkit-background-clip: text;
+      -moz-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      -moz-text-fill-color: transparent;
+      font-size: 5em;
+      font-weight: 1000;
+    }
+    span{
+        font-size: 2em;
+        padding: 0 5%;
+    }
+    .inputcontainer{
+        margin: 3% 0;
+        input{
+            background: transparent;
+            border: 2px solid #fff9;
+            outline: none;
+            padding:20px;
+            border-radius: 20px 0 0 20px;
+            font-size:20px;
+            border-right: none;
+        }
+        button{
+            background-image: linear-gradient(45deg, var(--bblue), var(--bpink));
+            border: none;
+            outline: none;
+            padding: 17px 25px;
+            border-radius: 0 20px 20px 0;
+            font-size:20px;
+            color: black;
+            font-weight: 900;
+
+        }
+    }
+  }
+}
