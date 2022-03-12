@@ -1,5 +1,6 @@
 import Home from "./pages/Home";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import RealNFTs from "./pages/RealNFTs";
 
 function App() {
   return (
@@ -7,7 +8,7 @@ function App() {
       <Router>
         <Switch>
           <Route path="/realnfts">
-            <h2>Real NFTs</h2>
+            <RealNFTs />
           </Route>
           <Route path="/">
             <Home />
