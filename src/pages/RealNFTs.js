@@ -7,7 +7,17 @@ export default function RealNFTs() {
     <>
       <div className="page-wrap">
         <Navbar />
-        Real NFTs Page
+
+        <div className="realnftcontainer">
+          <div>
+            <h1>Real NFTs</h1>
+            <span> Lorem ipsum dolor sit amet, consectet Lorem ipsum dolor sit amet, consectet Lorem ipsum dolor sit amet, consectet </span>
+            <div className="inputcontainer">
+                <input type="text" />
+                <button>Request Real NFT</button>
+            </div>
+          </div>
+        </div>
         <Footer />
       </div>
     </>
