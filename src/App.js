@@ -1,9 +1,20 @@
 import Home from "./pages/Home";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import RealNFTs from "./pages/RealNFTs";
 
 function App() {
   return (
     <>
-      <Home />
+      <Router>
+        <Switch>
+          <Route path="/realnfts">
+            <RealNFTs />
+          </Route>
+          <Route path="/">
+            <Home />
+          </Route>
+        </Switch>
+      </Router>
     </>
   );
 }
