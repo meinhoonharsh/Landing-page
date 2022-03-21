@@ -32,10 +32,22 @@ export default function RealNFTs() {
 
         <div className="realnftcontainer">
           <div>
-            <span className="heading">Real NFTs</span>
+            <span className="heading">#REAL_NFT</span>
             <span>
-              Lorem ipsum dolor sit amet, consectet Lorem ipsum dolor sit amet,
-              consectet Lorem ipsum dolor sit amet, consectet
+             Do you think we need more NFTs with real world value?<br/>
+            Take a stand with us to build a community of like-minded people who believe NFTs are more than just memes.
+            Let's use web3 as a tool to innovate conventional assets and markets.
+            </span>
+          </div>
+        </div>
+         <div className="realnftcontainer">
+          <div>
+            <span className="heading">ZERO-NFT</span>
+            <span>
+             Sarcasm is the best way to get attention. That's why we launched 'Zero-NFT'. 
+              NFT that depicts popular NFT collections running away with money, all in a funny sense.
+              We don't want to monetize these NFTs and won't let others do so thus, these NFTs are non-transferable (don't try transfering them you'll loose your gas)
+              and one account can hold only one NFT. These NFTs are more like a badge for support.
             </span>
             <div className="inputcontainer">
               <input
@@ -48,6 +60,7 @@ export default function RealNFTs() {
             </div>
           </div>
         </div>
+
         <Footer />
       </div>
     </>
