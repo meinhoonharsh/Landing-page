@@ -32,10 +32,11 @@ export default function RealNFTs() {
 
         <div className="realnftcontainer">
           <div>
-            <span className="heading">#RealNFTs</span>
+            <span className="heading" > #RealNFTs </span>
             <span>
-              Lorem ipsum dolor sit amet, consectet Lorem ipsum dolor sit amet,
-              consectet Lorem ipsum dolor sit amet, consectet
+             Do you think we need more NFTs with real world value  <br />
+            Take a stand with us to build a community of like-minded people who believe NFTs are more than just memes.
+            Let's use web3 as a tool to innovate conventional assets and markets.
             </span>
             <div className="inputcontainer">
               <input
