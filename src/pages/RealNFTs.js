@@ -32,7 +32,7 @@ export default function RealNFTs() {
 
         <div className="realnftcontainer">
           <div>
-            <span className="heading">Real NFTs</span>
+            <span className="heading">#RealNFTs</span>
             <span>
               Lorem ipsum dolor sit amet, consectet Lorem ipsum dolor sit amet,
               consectet Lorem ipsum dolor sit amet, consectet
@@ -44,8 +44,27 @@ export default function RealNFTs() {
                 value={address}
                 onChange={(e) => setAddress(e.target.value)}
               />
-              <button onClick={submitAddress}>Request Real NFT</button>
+              <button onClick={submitAddress}>Request Zero NFT</button>
             </div>
+          </div>
+        </div>
+
+        <div className="zero-nft-container">
+          <div className="content">
+            <h3 className="gtext">What is Zero NFT?</h3>
+            <p>
+              {" "}
+              Lorem ipsum dolor sit amet, consectet adip dolor sit amet,
+              consectet adip{" "}
+            </p>
+            <p>
+              {" "}
+              Lorem ipsum dolor sit amet, consectet adip dolor sit amet,
+              consectet adip
+            </p>
+          </div>
+          <div className="img-holder">
+            <img src="/assets/img/zeronft.png" />
           </div>
         </div>
         <Footer />
