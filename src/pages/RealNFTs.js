@@ -52,16 +52,16 @@ export default function RealNFTs() {
         <div className="zero-nft-container">
           <div className="content">
             <h3 className="gtext">What is Zero NFT?</h3>
-            <p>
+            <span>
               {" "}
               Lorem ipsum dolor sit amet, consectet adip dolor sit amet,
               consectet adip{" "}
-            </p>
-            <p>
+            </span>
+            <span>
               {" "}
               Lorem ipsum dolor sit amet, consectet adip dolor sit amet,
               consectet adip
-            </p>
+            </span>
           </div>
           <div className="img-holder">
             <img src="/assets/img/zeronft.png" />
