@@ -48,3 +48,34 @@
     }
   }
 }
+
+.zero-nft-container{
+  display:flex;
+  gap:5%;
+  max-width:1000px;
+  margin:10% auto;
+  margin-top:0;
+  .content{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+
+    h3{
+      text-transform: none;
+      line-height: inherit;
+      font-size: 3em;
+    }
+    p{
+      font-size: 1.2em;
+    }
+
+  }
+  
+  .img-holder{
+
+    img{
+      max-height:400px;
+      border-radius:20px;
+    }
+  }
+}
