@@ -34,7 +34,7 @@ export default function RealNFTs() {
           <div>
             <span className="heading" > #REAL_NFT </span>
             <span>
-             Do you think we need more NFTs with real world value? <br />
+             Do you think we need more NFTs with Real world value? <br />
             Take a stand with us to build a community of like-minded people who believe NFTs are more than just memes.
            
             </span>
@@ -47,15 +47,16 @@ export default function RealNFTs() {
               />
               <button onClick={submitAddress}>Request Zero NFT</button>
             </div>
-            <font>*NOTE: Some Random Line which will be changed in Future</font>
+            {/* <font>*NOTE: Some Random Line which will be changed in Future</font> */}
           </div>
         </div>
 
         <div className="zero-nft-container">
           <div className="content">
-            <h3 className="gtext">What is Zero NFT?</h3>
+            <h3 className="gtext">
+              What is Zero NFT?</h3>
             <span>
-            Sarcasm is the best way to get attention. That's why we launched 'Zero-NFT'. 
+            A Badge for Support. That's why we launched 'Zero-NFT'. 
               NFT that depicts popular NFT collections running away with money, all in a funny sense.
             </span>
             <span>
