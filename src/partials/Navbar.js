@@ -32,7 +32,19 @@ export default function NAvbar() {
               <a
                 data-w-id="b884066b-dfe0-b27f-d8b6-602283a3d9b0"
                 href="#"
-                target="_blank"
+                className="nav-link-block w-inline-block"
+              >
+                <img
+                  src="images/Icon-Nav-Hover.svg"
+                  loading="lazy"
+                  alt=""
+                  className="nav-link"
+                />
+                <div className="nav-link-name"> Real NFT </div>
+              </a>
+              <a
+                data-w-id="b884066b-dfe0-b27f-d8b6-602283a3d9b0"
+                href="#"
                 className="nav-link-block w-inline-block"
               >
                 <img
