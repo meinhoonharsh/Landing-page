@@ -35,7 +35,7 @@ export default function RealNFTs() {
             <span className="heading" > #REAL_NFT </span>
             <span>
              Do you think we need more NFTs with Real world value? <br />
-            Take a stand with us to build a community of like-minded people who believe NFTs are more than just memes.
+            Own a 'Zero-NFT' and take a stand with us to build a community of like-minded people who believe NFTs are more than just memes.
            
             </span>
             <div className="inputcontainer">
@@ -53,17 +53,20 @@ export default function RealNFTs() {
 
         <div className="zero-nft-container">
           <div className="content">
+           
             <h3 className="gtext">
-              What is Zero NFT?</h3>
+              What is Zero NFT?
+            </h3>
+
             <span>
-            A Badge for Support. That's why we launched 'Zero-NFT'. 
-              NFT that depicts popular NFT collections running away with money, all in a funny sense.
+            A Badge for Support. NFT with zero monetary value, depicting popular NFT collections running away with money, all in a funny sense.
             </span>
-            <span>
               
+            <span>
             We don't want to monetize these NFTs and won't let others do so thus, these NFTs are non-transferable (don't try transfering them you'll loose your gas)
-              and one account can hold only one NFT. These NFTs are more like a badge for support.
+            and one account can hold only one NFT. These NFTs are more like a badge for support.
             </span>
+
           </div>
           <div className="img-holder">
             <img src="/assets/img/zeronft.png" />
