@@ -64,7 +64,7 @@ export default function RealNFTs() {
               
             <span>
             We don't want to monetize these NFTs and won't let others do so thus, these NFTs are non-transferable (don't try transfering them you'll loose your gas)
-            and one account can hold only one NFT. These NFTs are more like a badge for support.
+            and one account can hold only one NFT.
             </span>
 
           </div>
