@@ -47,7 +47,7 @@ export default function RealNFTs() {
               />
               <button onClick={submitAddress}>Request Zero NFT</button>
             </div>
-            {/* <font>*NOTE: Some Random Line which will be changed in Future</font> */}
+            {<font>*NOTE: Zero-NFT exists on polygon. And it might take some time for us to mint your NFT since we are all learning as we go, so please be patient and join our discord where we'll post your transaction hash. </font>}
           </div>
         </div>
 
