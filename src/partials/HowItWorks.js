@@ -91,7 +91,7 @@ export default function HowItWorks() {
                     />
                   </div>
                   <h3 className="s2-h3">
-                    Earn from regular rent payments and price appreciation
+                    Get regular rent payments in your crypto wallet 
                   </h3>
                 </div>
               </div>
