@@ -11,7 +11,7 @@ export default function HowItWorks() {
           >
             <h2 className="h2">How we peice it together </h2>
             <p className="p is-s2-p">
-            Brickstox is a marketplace where you can invest in Real Estate backed NFTs, and use them in Decentralized Finance.
+            Brickstox is a marketplace where you can invest in Real Estate backed Tokens, and use them in Decentralized Finance.
             </p>
           </div>
           <div className="s2-blocks-wrapper">
@@ -54,7 +54,7 @@ export default function HowItWorks() {
                     />
                   </div>
                   <h3 className="s2-h3">
-                    We tokenize property into NFTs, each representing fractional
+                    We tokenize property into Tokens, each representing fractional
                     ownership
                   </h3>
                 </div>
@@ -73,7 +73,7 @@ export default function HowItWorks() {
                     />
                   </div>
                   <h3 className="s2-h3">
-                    Get NFT's directly into your crypto wallet
+                    Get Tokens directly into your crypto wallet
                   </h3>
                 </div>
               </div>
@@ -91,7 +91,7 @@ export default function HowItWorks() {
                     />
                   </div>
                   <h3 className="s2-h3">
-                    Get regular rent payments into your crypto wallet
+                    Earn from regular rent payments and price appreciation
                   </h3>
                 </div>
               </div>
@@ -109,7 +109,7 @@ export default function HowItWorks() {
                     />
                   </div>
                   <h3 className="s2-h3">
-                    Use our liquidity pools to borrow, lend and swap
+                    Use your Tokens as collateral to get loans
                   </h3>
                 </div>
               </div>
