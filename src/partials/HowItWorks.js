@@ -54,7 +54,7 @@ export default function HowItWorks() {
                     />
                   </div>
                   <h3 className="s2-h3">
-                    We tokenize property into Tokens, each representing fractional
+                    We breakdown a property into various Tokens, each representing fractional
                     ownership
                   </h3>
                 </div>
