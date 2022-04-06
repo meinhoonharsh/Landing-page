@@ -8,9 +8,9 @@ export default function Landing() {
         <div className="hero-info-container">
           <div className="hero-info">
             <div className="hero-subheader gtext">Introducing</div>
-            <h1 className="h1">Real Estate Backed NFTs</h1>
+            <h1 className="h1">Real Estate Backed Tokens</h1>
             <p className="p">
-              Invest in a non-volatile, familiar asset backed NFT with real world value and earn regular returns.
+              Invest in a non-volatile, familiar asset backed Tokens with real world value and earn regular returns.
             </p>
             <div className="hero-buttons-container">
               <a
