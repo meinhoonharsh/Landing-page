@@ -1,6 +1,11 @@
 import React from "react";
 
 export default function NAvbar() {
+
+  const toggleMenu = () => {
+    // document.querySelector('.w-nav-menu').style.display = "block"
+    console.log("Toggling menu")
+  }
   return (
     <>
       <div
@@ -27,6 +32,15 @@ export default function NAvbar() {
             />
             <h2 style={{ color: "#fff" }}>Brickstox</h2>
           </a>
+
+          <div className="menu-button w-nav-button"
+            onClick={() => toggleMenu()}
+          >
+            <div className="menu-icon-container">
+              <div className="menu-icon-top" />
+              <div className="menu-icon-bottom" />
+            </div>
+          </div>
           <nav role="navigation" className="nav-menu-container w-nav-menu">
             <div className="nav-menu">
               <a
@@ -54,14 +68,14 @@ export default function NAvbar() {
                   className="nav-link"
                 />
                 <div className="nav-link-name"> Marketplace <span style={{
-                  position:'absolute',
-                  top:'-10px',
-                  backgroundColor:'var(--bpink)',
+                  position: 'absolute',
+                  top: '-10px',
+                  backgroundColor: 'var(--bpink)',
 
-                  borderRadius:'5px',
-                  right:0,
-                  padding:'4px',
-                  fontSize:'0.6em',
+                  borderRadius: '5px',
+                  right: 0,
+                  padding: '4px',
+                  fontSize: '0.6em',
                 }}>Coming Soon</span></div>
               </a>
               <a
@@ -100,12 +114,6 @@ export default function NAvbar() {
               </div>
             </div>
           </nav>
-          <div className="menu-button w-nav-button">
-            <div className="menu-icon-container">
-              <div className="menu-icon-top" />
-              <div className="menu-icon-bottom" />
-            </div>
-          </div>
         </div>
       </div>
     </>

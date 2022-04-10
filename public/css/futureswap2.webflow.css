@@ -136,7 +136,7 @@ body {
 }
 
 .filled-button:hover::after {
-  
+
   content: "";
   position: absolute;
   z-index: -1;
@@ -146,7 +146,7 @@ body {
   width: 90%;
   opacity: 0.8;
   border-radius: 50px;
-  
+
   /* Declaring our shadow color inherit from the parent (button) */
   background: inherit;
   /* Changing blur effect */
@@ -202,7 +202,7 @@ body {
   font-size: 17px;
   line-height: 1;
   font-weight: 500;
-  
+
   border: 3px solid transparent;
   border-image: linear-gradient(to right, var(--bblue), var(--bpink));
   border-image-slice: 1;
@@ -219,7 +219,7 @@ body {
   width: 90%;
   opacity: 0.8;
   border-radius: 50px;
-  
+
   /* Declaring our shadow color inherit from the parent (button) */
   background: inherit;
   /* Changing blur effect */
@@ -257,7 +257,8 @@ body {
 
 .nav-container {
   height: 100%;
-  min-width: 90vw;
+  min-width: 100vw;
+  padding: 0px 5vw;
   margin-right: 0px;
   margin-left: 0px;
 }
@@ -2608,6 +2609,7 @@ body {
   font-style: normal;
   font-display: swap;
 }
+
 @font-face {
   font-family: 'Codec cold';
   src: url('../fonts/Codec-Cold-News.woff') format('woff');
@@ -2615,6 +2617,7 @@ body {
   font-style: normal;
   font-display: swap;
 }
+
 @font-face {
   font-family: 'Biennale';
   src: url('../fonts/Biennale-Medium.otf') format('opentype');
@@ -2622,6 +2625,7 @@ body {
   font-style: normal;
   font-display: swap;
 }
+
 @font-face {
   font-family: 'Biennale';
   src: url('../fonts/Biennale-Regular.otf') format('opentype');
@@ -2629,6 +2633,7 @@ body {
   font-style: normal;
   font-display: swap;
 }
+
 @font-face {
   font-family: 'Biennale';
   src: url('../fonts/Biennale-Light.otf') format('opentype');
