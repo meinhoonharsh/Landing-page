@@ -10,6 +10,14 @@ export default function NAvbar() {
   // }
 
   useEffect(() => {
+    // If window width is less than 768px, close the navbar
+    if (window.innerWidth < 768) {
+      setIsNavOpen(false);
+    }
+
+  }, []);
+
+  useEffect(() => {
     document.querySelector('.w-nav-menu').style.display = isNavOpen ? "block" : "none"
   }, [isNavOpen])
 
