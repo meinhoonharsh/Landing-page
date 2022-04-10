@@ -1,11 +1,18 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 
 export default function NAvbar() {
+  const [isNavOpen, setIsNavOpen] = useState(false);
 
-  const toggleMenu = () => {
-    // document.querySelector('.w-nav-menu').style.display = "block"
-    console.log("Toggling menu")
-  }
+
+  // const toggleMenu = () => {
+  //   // document.querySelector('.w-nav-menu').style.display = "block"
+  //   console.log("Toggling menu")
+  // }
+
+  useEffect(() => {
+    document.querySelector('.w-nav-menu').style.display = isNavOpen ? "block" : "none"
+  }, [isNavOpen])
+
   return (
     <>
       <div
@@ -34,7 +41,7 @@ export default function NAvbar() {
           </a>
 
           <div className="menu-button w-nav-button"
-            onClick={() => toggleMenu()}
+            onClick={() => setIsNavOpen(!isNavOpen)}
           >
             <div className="menu-icon-container">
               <div className="menu-icon-top" />
