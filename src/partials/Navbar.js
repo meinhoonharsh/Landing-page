@@ -1,6 +1,26 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 
 export default function NAvbar() {
+  const [isNavOpen, setIsNavOpen] = useState(true);
+
+
+  // const toggleMenu = () => {
+  //   // document.querySelector('.w-nav-menu').style.display = "block"
+  //   console.log("Toggling menu")
+  // }
+
+  useEffect(() => {
+    // If window width is less than 768px, close the navbar
+    if (window.innerWidth < 768) {
+      setIsNavOpen(false);
+    }
+
+  }, []);
+
+  useEffect(() => {
+    document.querySelector('.w-nav-menu').style.display = isNavOpen ? "block" : "none"
+  }, [isNavOpen])
+
   return (
     <>
       <div
@@ -27,11 +47,20 @@ export default function NAvbar() {
             />
             <h2 style={{ color: "#fff" }}>Brickstox</h2>
           </a>
+
+          <div className="menu-button w-nav-button"
+            onClick={() => setIsNavOpen(!isNavOpen)}
+          >
+            <div className="menu-icon-container">
+              <div className="menu-icon-top" />
+              <div className="menu-icon-bottom" />
+            </div>
+          </div>
           <nav role="navigation" className="nav-menu-container w-nav-menu">
             <div className="nav-menu">
               <a
                 data-w-id="b884066b-dfe0-b27f-d8b6-602283a3d9b0"
-                href="realnft"
+                href="/realnfts"
                 className="nav-link-block w-inline-block"
               >
                 <img
@@ -54,14 +83,14 @@ export default function NAvbar() {
                   className="nav-link"
                 />
                 <div className="nav-link-name"> Marketplace <span style={{
-                  position:'absolute',
-                  top:'-10px',
-                  backgroundColor:'var(--bpink)',
+                  position: 'absolute',
+                  top: '-10px',
+                  backgroundColor: 'var(--bpink)',
 
-                  borderRadius:'5px',
-                  right:0,
-                  padding:'4px',
-                  fontSize:'0.6em',
+                  borderRadius: '5px',
+                  right: 0,
+                  padding: '4px',
+                  fontSize: '0.6em',
                 }}>Coming Soon</span></div>
               </a>
               <a
@@ -100,12 +129,6 @@ export default function NAvbar() {
               </div>
             </div>
           </nav>
-          <div className="menu-button w-nav-button">
-            <div className="menu-icon-container">
-              <div className="menu-icon-top" />
-              <div className="menu-icon-bottom" />
-            </div>
-          </div>
         </div>
       </div>
     </>
