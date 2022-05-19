@@ -60,7 +60,7 @@ export default function NAvbar() {
             <div className="nav-menu">
               <a
                 data-w-id="b884066b-dfe0-b27f-d8b6-602283a3d9b0"
-                href="/realnfts"
+                href="/realnft"
                 className="nav-link-block w-inline-block"
               >
                 <img
