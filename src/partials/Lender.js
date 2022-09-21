@@ -8,10 +8,10 @@ export default function VersatileToken() {
           <div className="s6-image-wrapper">
             <div>
               <img
-                src="assets/img/vt.png"
+                src="assets/img/borrow1.png"
                 className="s3-box-image"
                 style={{
-                  width: "85%",
+                  width: "65%",
                   margin: "auto",
                 }}
               />

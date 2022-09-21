@@ -38,8 +38,9 @@ export default function Landing() {
               </video> */}
 
               <h1 class="neon" data-text="U">
-                G<span class="flicker-2">E</span>
-                <span class="flicker-3">A</span>
+                <span class="flicker-1">G</span>
+                <span class="flicker-2">E</span>
+                <span>A</span>
                 <span class="flicker-4">R</span>
               </h1>
 

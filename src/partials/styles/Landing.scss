@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css?family=Monoton");
 
 .landing {
+  // padding: ;
   .hero-info {
     p {
       font-size: 1.2em;
@@ -61,7 +62,7 @@
     }
 
     .flicker-1 {
-      animation: flicker 2s linear infinite;
+      animation: flicker 50s linear infinite;
     }
     .flicker-2 {
       animation: flicker 5s linear infinite;
@@ -114,7 +115,7 @@
         // reverse direction
         animation: gear 12s linear infinite reverse;
         position: relative;
-        top: -18px;
+        top: -20px;
         left: -12px;
       }
 
