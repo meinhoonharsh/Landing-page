@@ -3,7 +3,6 @@ import React, { useState, useEffect } from "react";
 export default function NAvbar() {
   const [isNavOpen, setIsNavOpen] = useState(true);
 
-
   // const toggleMenu = () => {
   //   // document.querySelector('.w-nav-menu').style.display = "block"
   //   console.log("Toggling menu")
@@ -14,12 +13,13 @@ export default function NAvbar() {
     if (window.innerWidth < 768) {
       setIsNavOpen(false);
     }
-
   }, []);
 
   useEffect(() => {
-    document.querySelector('.w-nav-menu').style.display = isNavOpen ? "block" : "none"
-  }, [isNavOpen])
+    document.querySelector(".w-nav-menu").style.display = isNavOpen
+      ? "block"
+      : "none";
+  }, [isNavOpen]);
 
   return (
     <>
@@ -45,10 +45,11 @@ export default function NAvbar() {
               alt=""
               className="nav-logo"
             />
-            <h2 style={{ color: "#fff" }}>Brickstox</h2>
+            <h2 style={{ color: "#fff" }}>GearFi</h2>
           </a>
 
-          <div className="menu-button w-nav-button"
+          <div
+            className="menu-button w-nav-button"
             onClick={() => setIsNavOpen(!isNavOpen)}
           >
             <div className="menu-icon-container">
@@ -82,16 +83,24 @@ export default function NAvbar() {
                   alt=""
                   className="nav-link"
                 />
-                <div className="nav-link-name"> Marketplace <span style={{
-                  position: 'absolute',
-                  top: '-10px',
-                  backgroundColor: 'var(--bpink)',
+                <div className="nav-link-name">
+                  {" "}
+                  Marketplace{" "}
+                  <span
+                    style={{
+                      position: "absolute",
+                      top: "-10px",
+                      backgroundColor: "var(--bpink)",
 
-                  borderRadius: '5px',
-                  right: 0,
-                  padding: '4px',
-                  fontSize: '0.6em',
-                }}>Coming Soon</span></div>
+                      borderRadius: "5px",
+                      right: 0,
+                      padding: "4px",
+                      fontSize: "0.6em",
+                    }}
+                  >
+                    Coming Soon
+                  </span>
+                </div>
               </a>
               <a
                 href="https://discord.gg/8pYU3yDNAH"

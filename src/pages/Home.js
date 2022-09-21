@@ -4,7 +4,8 @@ import HowItWorks from "../partials/HowItWorks";
 import Landing from "../partials/Landing";
 import Navbar from "../partials/Navbar";
 import ProductSection from "../partials/ProductSection";
-import VersatileToken from "../partials/VersatileToken";
+import Borrower from "../partials/Borrower";
+import Lender from "../partials/Lender";
 import WhyUs from "../partials/WhyUs";
 import FAQs from "../partials/FAQs";
 import Roadmap from "../partials/Roadmap";
@@ -17,11 +18,12 @@ export default function Home() {
         <Navbar />
         <Landing />
         {/* <ProductSection /> */}
-        <ProdSection />
+        {/* <ProdSection /> */}
         <HowItWorks />
-        <Roadmap />
-        <WhyUs />
-        {/* <VersatileToken /> */}
+        {/* <Roadmap /> */}
+        <Borrower />
+        <Lender />
+        {/* <WhyUs /> */}
         {/* <FAQs /> */}
         <Footer />
       </div>

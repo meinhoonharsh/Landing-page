@@ -1,5 +1,5 @@
 import React from "react";
-import './styles/HowItWorks.scss'
+import "./styles/HowItWorks.scss";
 export default function HowItWorks() {
   return (
     <>
@@ -11,10 +11,11 @@ export default function HowItWorks() {
           >
             <h2 className="h2">How we peice it together </h2>
             <p className="p is-s2-p">
-            Brickstox is a marketplace where you can invest in Real Estate backed Tokens, and use them in Decentralized Finance.
+              Brickstox is a marketplace where you can invest in Real Estate
+              backed Tokens, and use them in Decentralized Finance.
             </p>
           </div>
-          <div className="s2-blocks-wrapper">
+          {/* <div className="s2-blocks-wrapper">
             <div
               data-w-id="a07dd5fa-e232-2d4d-0204-e7a5e93200e2"
               className="s2-blocks-container"
@@ -114,7 +115,7 @@ export default function HowItWorks() {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </>
