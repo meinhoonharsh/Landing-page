@@ -9,11 +9,11 @@ export default function Landing() {
           <div className="hero-info">
             {/* <div className="hero-subheader gtext">Now </div> */}
             <h1 className="h1">
-              <span className="gtext">Gear Up</span>
+              <span className="gtext">GEAR UP</span>
               <br />
-              <span className="gtext"> Your NFT</span>
+              <span className="gtext"> YOUR NFT</span>
               <br />
-              <span className="gtext"> Purchase</span>
+              <span className="gtext"> PURCHASE</span>
             </h1>
             {/* <p className="p">
               Invest in a non-volatile, familiar asset backed Tokens with real
@@ -21,13 +21,13 @@ export default function Landing() {
             </p> */}
             <div className="hero-buttons-container">
               <a
-                href="https://discord.gg/SPkGXSeV2m"
+                href="https://discord.gg/Auqs3tGryT"
                 className="filled-button is-filled-hero-button w-button"
                 style={{
                   position: "relative",
                 }}
               >
-                Launch App
+                Join Discord
               </a>
             </div>
           </div>

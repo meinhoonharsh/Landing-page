@@ -5,29 +5,7 @@ export default function Footer() {
     <>
       <div className="footer">
         <div className="footer-container">
-          <div className="footer-legal">
-            Copyright ©<span className="copyright-year">2022</span> GearFi
-            <br />
-            All rights reserved &nbsp;| &nbsp;
-            <a href="#" target="_blank" className="privacy-link">
-              Privacy
-            </a>
-          </div>
-          <div
-            style={{
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "center",
-            }}
-          >
-            <img
-              src="assets/img/logo.png"
-              loading="lazy"
-              alt=""
-              className="nav-logo"
-            />
-            <h2 style={{ color: "#fff" }}>GearFi</h2>
-          </div>
+         
           <div className="social-container">
             <a
               href="https://twitter.com/brickstox"
@@ -65,24 +43,25 @@ export default function Footer() {
                 className="green-social"
               />
             </a>
-            {/* <a
-              href="https://www.linkedin.com/company/the-ledger-company0"
+            <a
+              href="https://t.me/GearFi"
               target="_blank"
               className="social-holder w-inline-block"
             >
               <img
-                src="images/Icon-Discord-Gray.svg"
+                src="images/icon-telegram-green.svg"
                 loading="lazy"
                 alt=""
                 className="gray-social"
               />
               <img
-                src="images/Icon-Discord-Green.svg"
+                src="images/icon-telegram-green.svg"
                 loading="lazy"
                 alt=""
                 className="green-social"
               />
-            </a> */}
+            </a>
+           
           </div>
         </div>
       </div>
