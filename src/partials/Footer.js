@@ -8,7 +8,7 @@ export default function Footer() {
          
           <div className="social-container">
             <a
-              href="https://twitter.com/brickstox"
+              href="https://twitter.com/Gear_Fi?t=H_B05TiU49QHnzCBkdmGsQ&s=09"
               target="_blank"
               className="social-holder w-inline-block"
             >
