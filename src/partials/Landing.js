@@ -31,7 +31,7 @@ export default function Landing() {
               </a>
             </div>
           </div>
-          <div className="video hero-video">
+          <div className="video hero-icons">
             <div className="video-wrapper">
               {/* <video autoPlay loop muted playsInline>
                 <source src={Video} type="video/mp4" />
