@@ -146,6 +146,10 @@
   }
 }
 
+@media screen and (max-width: 991px){
+.s6-reverse {
+  flex-direction: column-reverse;
+}}
 
 
 @media screen and (max-width: 692px) {
