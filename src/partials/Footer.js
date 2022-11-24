@@ -1,70 +1,27 @@
 import React from "react";
+import "./styles/Footer.scss";
 
 export default function Footer() {
   return (
     <>
-      <div className="footer">
-        <div className="footer-container">
-         
-          <div className="social-container">
-            <a
-              href="https://twitter.com/brickstox"
-              target="_blank"
-              className="social-holder w-inline-block"
-            >
-              <img
-                src="images/Icon-Twitter-Gray.svg"
-                loading="lazy"
-                alt=""
-                className="gray-social"
-              />
-              <img
-                src="images/Icon-Twitter-Green.svg"
-                loading="lazy"
-                alt=""
-                className="green-social"
-              />
-            </a>
-            <a
-              href="https://discord.gg/8pYU3yDNAH"
-              target="_blank"
-              className="social-holder w-inline-block"
-            >
-              <img
-                src="images/Icon-Discord-Gray.svg"
-                loading="lazy"
-                alt=""
-                className="gray-social"
-              />
-              <img
-                src="images/Icon-Discord-Green.svg"
-                loading="lazy"
-                alt=""
-                className="green-social"
-              />
-            </a>
-            <a
-              href="https://t.me/GearFi"
-              target="_blank"
-              className="social-holder w-inline-block"
-            >
-              <img
-                src="images/icon-telegram-green.svg"
-                loading="lazy"
-                alt=""
-                className="gray-social"
-              />
-              <img
-                src="images/icon-telegram-green.svg"
-                loading="lazy"
-                alt=""
-                className="green-social"
-              />
-            </a>
-           
-          </div>
+       <footer>
+        <div class="footer-content">
+            <h3>Our Mission</h3>
+            <p>
+              Our mission is to mainstream the NFT/DeFi market and onboard more users into the Web3.0
+              space by increasing the buying potential of users.
+            </p>
+            <ul class="socials">
+                <li><a href="https://discord.gg/PJp2DbX64U"><i class="fab fa-discord"></i></a></li>
+                <li><a href="https://twitter.com/Gear_Fi"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="https://www.linkedin.com/company/the-ledger-company0/"><i class="fa fa-linkedin-square"></i></a></li>
+            </ul>
         </div>
-      </div>
+    </footer>
     </>
   );
 }
+
+
+
+   

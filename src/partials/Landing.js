@@ -21,7 +21,7 @@ export default function Landing() {
             </p> */}
             <div className="hero-buttons-container">
               <a
-                href="https://discord.gg/Auqs3tGryT"
+                href="https://discord.gg/PJp2DbX64U"
                 className="filled-button is-filled-hero-button w-button"
                 style={{
                   position: "relative",
@@ -29,6 +29,15 @@ export default function Landing() {
               >
                 Join Discord
               </a>
+              {/* <a
+                href="https://discord.gg/Auqs3tGryT"
+                className="filled-button is-filled-hero-button w-button"
+                style={{
+                  position: "relative",
+                }}
+              >
+                Go to Docs
+              </a> */}
             </div>
           </div>
           <div className="video hero-video">

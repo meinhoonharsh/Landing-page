@@ -40,6 +40,7 @@ class Panel extends React.Component {
         >
           <p className="panel__content">{content}</p>
         </div>
+        
       </div>
     );
   }

@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css?family=Monoton");
 
 .landing {
-  // padding: ;
+  
   .hero-info {
     p {
       font-size: 1.2em;
@@ -15,36 +15,11 @@
       font-size: 3em;
     }
   }
-  .landing-brain {
-    animation: upDown 2s ease-in-out infinite;
-  }
-  .landing-bitcoin {
-    animation: upDown 3s ease-in-out infinite;
-  }
-  .landing-humans {
-    animation: upDown 4s ease-in-out infinite;
-  }
-  @media screen and (max-width: 865px) {
-    .waves-container {
-      display: none;
-    }
-  }
 
-  .waves-container {
-    position: relative;
-    img {
-      position: absolute;
-      top: 0;
-      left: 0;
-    }
-  }
+  
 
   .hero-video {
-    video {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-    }
+    
 
     .neon {
       font-family: "Monoton", cursive;
@@ -103,8 +78,9 @@
     .gear-box {
       font-size: 5em;
       position: absolute;
-      top: 23%;
+      top: 19%;
       left: 60%;
+
       .gear {
         color: #8fdcfa;
         // text-shadow: 1px 0px 4px #1295d2, 2px 0px 4px #4098df, 3px 0px 4px #5774d2,
@@ -116,8 +92,8 @@
         // reverse direction
         animation: gear 12s linear infinite reverse;
         position: relative;
-        top: -20px;
-        left: -12px;
+        top: -21px;
+        left: -11px;
       }
 
       @keyframes gear {
@@ -131,15 +107,7 @@
     }
   }
 }
-// Create Up Down Animation
-@keyframes upDown {
-  0% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(10px);
-  }
-  100% {
-    transform: translateY(0);
-  }
-}
+
+
+
+

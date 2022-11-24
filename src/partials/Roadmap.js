@@ -3,20 +3,27 @@ import "./styles/Roadmap.scss";
 
 export default function Roadmap() {
   const Initiatives = [
-    ["Q4 2021", "Ideation, prototyping, Advisory", "lightblue"],
     [
-      "Q1 2022",
-      "Market validation, community building, MVP, fundraising",
+      "Q4 2022", 
+      "Concept Creation, Community building, Testnet launch", 
+      "lightblue"
+    ],
+
+    [
+      "Q1 2023",
+      "Seed raise, Team expansion, MVP Launch",
       "primaryblue"
     ],
+
     [
-      "Q2 2022",
-      "Product Launch, First Property Listing, pre-ICO/ICO launch, legal structuring",
+      "Q2 2023",
+      "Security Audits, Product Launch",
       "violet"
     ],
+    
     [
-      "Q3 2022",
-      "Partnerships, Pipeline of projects, adding new features like NFT liquidity pools",
+      "Q3 2023",
+      "Building DAO ecosystem, IFO",
       "pink"
     ]
   ];
@@ -47,19 +54,7 @@ export default function Roadmap() {
           );
         })}
       </div>
-      <div className="content">
-        <span>
-          To stay updated about upcoming <i class="gtext">investment opportunities</i> and our <i class="gtext">ICO</i> &nbsp;
-          launch, please join our discord server
-        </span>
-
-        <a
-          href="https://discord.gg/8pYU3yDNAH"
-          className="filled-button w-button"
-        >
-          Join Discord
-        </a>
-      </div>
+      
     </div>
   );
 }

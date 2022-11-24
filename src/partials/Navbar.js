@@ -34,7 +34,7 @@ export default function NAvbar() {
         className="nav w-nav"
       >
         <div className="nav-container w-container">
-          <a
+          {/* <a
             href="index.html"
             aria-current="page"
             className="nav-logo-link w-nav-brand w--current"
@@ -46,7 +46,7 @@ export default function NAvbar() {
               className="nav-logo"
             />
             <h2 style={{ color: "#fff" }}>GearFi</h2>
-          </a>
+          </a> */}
 
           <div
             className="menu-button w-nav-button"
