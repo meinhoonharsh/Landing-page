@@ -18,7 +18,16 @@
   }
   
   @media screen and (max-width: 865px) {
-    .flicker-text-container {
+        
+    .flicker-text{
+        display: none;
+      }
+
+      .neon{
+        font-size: 20px;
+      }
+    
+    .gear-box{
       display: none;
     }
   }

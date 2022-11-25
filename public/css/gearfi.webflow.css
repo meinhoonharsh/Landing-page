@@ -752,8 +752,8 @@ body {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  padding-top: 200px;
-  padding-bottom: 200px;
+  padding-top: 100px;
+  padding-bottom: 100px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -771,7 +771,7 @@ body {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  width: 90%;
+  width: auto;
 }
 
 .s6-info-container {
@@ -781,6 +781,7 @@ body {
   display: flex;
   width: 40%;
   padding-right: 50px;
+  padding-left: 50px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -1198,8 +1199,8 @@ body {
 }
 
 .s3-box-image {
-  position: absolute;
-  width: 75%;
+  position: relative;
+  width: 80%;
   margin: auto;
   left: 0%;
   top: 0%;
@@ -1984,7 +1985,7 @@ body {
   .s6-info-container {
     width: 100%;
     margin-bottom: 50px;
-    padding-right: 0px;
+   
   }
 
   .s3-image-wrapper {
@@ -2310,6 +2311,7 @@ body {
 
   .s6 {
     padding-bottom: 50px;
+    padding-top: 50px;
   }
 
   .s3 {
@@ -2384,8 +2386,8 @@ body {
 
 @media screen and (max-width: 479px) {
   .hero-wrapper {
-    padding-top: 175px;
-    padding-bottom: 300px;
+    padding-top: 100px;
+    padding-bottom: 5px;
   }
 
   .hero-subheader {

@@ -1,19 +1,19 @@
 import React from "react";
+import "./styles/Buyer.scss";
 
 
 export default function VersatileToken() {
   return (
     <>
-      <div className="s6" style={{backgroundColor: "white", paddingTop:"250px", paddingBottom:"250px"}}>
+      <div className="s6" style={{backgroundColor: "white"}}>
         <div className="s6-container">
           <div className="s6-image-wrapper">
             <div>
               <img
                 src="assets/img/Team.png"
-                className="s3-box-image"
+                className="s3-box-image team-img"
                 style={{
-                  width: "80%",
-                  margin: "auto",
+                 left:"10%"
                 }}
               />
             </div>

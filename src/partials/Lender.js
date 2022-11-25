@@ -1,4 +1,5 @@
 import React from "react";
+import "./styles/Buyer.scss";
 
 export default function VersatileToken() {
   return (
@@ -25,10 +26,6 @@ export default function VersatileToken() {
               <img
                 src="assets/img/Gear-girl.png"
                 className="s3-box-image"
-                style={{
-                  width: "80%",
-                  margin: "auto",
-                }}
               />
             </div>
           </div>

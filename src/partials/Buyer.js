@@ -11,10 +11,6 @@ export default function VersatileToken() {
               <img
                 src="assets/img/NFTs2.png"
                 className="s3-box-image"
-                style={{
-                  width: "85%",
-                  margin: "auto",
-                }}
               />
             </div>
           </div>
