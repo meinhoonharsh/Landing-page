@@ -16,19 +16,22 @@
       font-size: 3em;
     }
   }
-
   
+  @media screen and (max-width: 865px) {
+    .flicker-text-container {
+      display: none;
+    }
+  }
 
-  .hero-video {
-    
 
+  .flicker-text-container {
     .neon {
       font-family: "Monoton", cursive;
       font-size: 130px;
       color: #18b7f6;
       position: absolute;
-      top: 0%;
-      left: 0%;
+      top: 50%;
+      left: 50%;
       // transform: translate(-50%, -50%);
       font-weight: 400;
       letter-spacing: 8px;
@@ -81,7 +84,6 @@
       position: absolute;
       top: 19%;
       left: 60%;
-
       .gear {
         color: #8fdcfa;
         // text-shadow: 1px 0px 4px #1295d2, 2px 0px 4px #4098df, 3px 0px 4px #5774d2,
@@ -108,7 +110,15 @@
     }
   }
 }
-
-
-
-
+// Create Up Down Animation
+@keyframes upDown {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
