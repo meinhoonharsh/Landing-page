@@ -1,5 +1,5 @@
 import React from "react";
-import "./styles/Buyer.scss";
+import "./styles/Responsive.scss";
 
 export default function VersatileToken() {
   return (

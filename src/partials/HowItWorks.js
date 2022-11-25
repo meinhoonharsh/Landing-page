@@ -1,5 +1,5 @@
 import React from "react";
-import "./styles/Buyer.scss";
+import "./styles/Responsive.scss";
 
 export default function VersatileToken() {
   return (
@@ -10,14 +10,14 @@ export default function VersatileToken() {
             <div>
               <img
                 src="assets/img/HowItWorks2.png"
-                className="s3-box-image" style={{width:"90%"}}
+                className="s3-box-image how-img"
               />
             </div>
           </div>
           <div
             data-w-id="649dbab4-e00a-e03a-732f-5ed95dca54ab"
-            className="s6-info-container">
-            <h2 className="h2 is-small-h2 text" style={{color: "#07071C"}}>How It Works</h2>
+            className="s6-info-container how-text">
+            <h2 className="h2 is-small-h2" style={{color: "#07071C"}}>How It Works</h2>
            
           </div>
         </div>

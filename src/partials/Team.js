@@ -1,5 +1,5 @@
 import React from "react";
-import "./styles/Buyer.scss";
+import "./styles/Responsive.scss";
 
 
 export default function VersatileToken() {
@@ -12,9 +12,6 @@ export default function VersatileToken() {
               <img
                 src="assets/img/Team.png"
                 className="s3-box-image team-img"
-                style={{
-                 left:"10%"
-                }}
               />
             </div>
           </div>

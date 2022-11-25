@@ -1,8 +1,15 @@
+.team-img{
+    left: 8%;
+}
+
+.how-img{
+    width: 100%;
+}
+
 @media screen and (max-width: 865px) {
     
     .s6-container{
-        width: 80%;
-        
+        width: 80%; 
     }
 
     .s6-info-container{
@@ -14,11 +21,18 @@
         left : 25%;
         margin-bottom: 2%;
     }
-    .h2 .is-small-h2 .text{
-        font-size: 30px;
+
+    .how-text{
+       padding-right: 0px;
     }
+
     .team-img{
-        width: 200px;
-        right: 10%;
+        width: 100%;
+        left: 0%;
+    }
+
+    .how-img{
+        width: 100%;
+        left:0%;
     }
 }
