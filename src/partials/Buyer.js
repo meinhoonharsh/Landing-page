@@ -21,7 +21,7 @@ export default function VersatileToken() {
             <h2 className="h2 is-small-h2" style={{color: "#07071C"}}>Buy more | Earn more</h2>
             <p className="p is-s6-p">
               
-              With increased buying potential you can own more NFTs than ever!
+              Now use BNPL to own more NFTs than ever!
               <br/><br/>
 
               Pay a downpayment to Reserve your NFT. 

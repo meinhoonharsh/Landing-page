@@ -11,12 +11,21 @@ export default function VersatileToken() {
             className="s6-info-container"
 
           >
-            <h2 className="h2 is-small-h2" style={{color: "white" }}>Finance a Purchase </h2>
+            <h2 className="h2 is-small-h2" style={{color: "white" }}>Why sell on GearFi? </h2>
             <p className="p is-s6-p">
-              
-            Best case scenario, earn exciting APR.
-            <br/><br/>
-            In case of default, get the NFT at discounted price. 
+
+              <br/>
+
+            Leverage Buy Now Pay Later model to <br/><br/>
+
+            <ul>
+              <li>Get a higher price for your NFT</li><br/>
+              <li>Increase the chances of finding a Buyer for your NFT Art</li> {/*Blockchain */}
+            </ul>
+
+            <br/>
+
+            In case of default, get your NFT back with the downpayment. 
               
             </p>
 

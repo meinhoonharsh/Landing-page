@@ -11,8 +11,8 @@ export default function HowItWorks() {
           >
             <h2 className="h2">Can't afford your Favourite <span className="gtext">NFT</span>?  </h2>
             <p className="">
-              <p>Using GearFi buy NFTs without paying full upfront price. Get your NFT purchase financed from peer to peer marketplace. </p>
-              <span className="gtext">Just like car loan, but for your NFTs!</span>
+              <p>Using GearFi buy NFTs without paying full upfront price. Pay a fraction now and rest of the amount later. </p>
+              <span className="gtext">Buy Now Pay Later for NFTs!</span>
             </p>
 
           </div>
